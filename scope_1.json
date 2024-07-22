@@ -12,7 +12,8 @@
         ]
       },
       "properties": {
-        "name": "New York NY"
+        "name": "New York NY",
+        "type": "Terminal"
       }
     },
     {
@@ -25,7 +26,8 @@
         ]
       },
       "properties": {
-        "name": "Los Angeles CA"
+        "name": "Los Angeles CA",
+        "type": "Terminal"
       }
     },
     {
@@ -38,7 +40,8 @@
         ]
       },
       "properties": {
-        "name": "Dallas TX"
+        "name": "Dallas TX",
+        "type": "Terminal"
       }
     },
     {
@@ -51,7 +54,8 @@
         ]
       },
       "properties": {
-        "name": "Houston TX"
+        "name": "Houston TX",
+        "type": "Terminal"
       }
     },
     {
@@ -64,7 +68,8 @@
         ]
       },
       "properties": {
-        "name": "Washington DC"
+        "name": "Washington DC",
+        "type": "Terminal"
       }
     },
     {
@@ -77,7 +82,8 @@
         ]
       },
       "properties": {
-        "name": "Philadelphia PA"
+        "name": "Philadelphia PA",
+        "type": "Station"
       }
     },
     {
@@ -90,7 +96,8 @@
         ]
       },
       "properties": {
-        "name": "Boston MA"
+        "name": "Boston MA",
+        "type": "Terminal"
       }
     },
     {
@@ -103,7 +110,8 @@
         ]
       },
       "properties": {
-        "name": "San Francisco CA"
+        "name": "San Francisco CA",
+        "type": "Terminal"
       }
     },
     {
@@ -116,7 +124,8 @@
         ]
       },
       "properties": {
-        "name": "Baltimore MD"
+        "name": "Baltimore MD",
+        "type": "Station"
       }
     },
     {
@@ -129,7 +138,8 @@
         ]
       },
       "properties": {
-        "name": "San Antonio TX"
+        "name": "San Antonio TX",
+        "type": "Station"
       }
     },
     {
@@ -142,7 +152,8 @@
         ]
       },
       "properties": {
-        "name": "Austin TX"
+        "name": "Austin TX",
+        "type": "Station"
       }
     },
     {
@@ -155,7 +166,8 @@
         ]
       },
       "properties": {
-        "name": "San Jose CA"
+        "name": "San Jose CA",
+        "type": "Station"
       }
     },
     {
@@ -168,7 +180,8 @@
         ]
       },
       "properties": {
-        "name": "Providence RI"
+        "name": "Providence RI",
+        "type": "Station"
       }
     },
     {
@@ -181,7 +194,8 @@
         ]
       },
       "properties": {
-        "name": "Fresno CA"
+        "name": "Fresno CA",
+        "type": "Station"
       }
     },
     {
@@ -194,7 +208,8 @@
         ]
       },
       "properties": {
-        "name": "Hartford CT"
+        "name": "Hartford CT",
+        "type": "Station"
       }
     },
     {
@@ -207,7 +222,8 @@
         ]
       },
       "properties": {
-        "name": "Bridgeport CT"
+        "name": "Bridgeport CT",
+        "type": "Station"
       }
     },
     {
@@ -220,7 +236,8 @@
         ]
       },
       "properties": {
-        "name": "Bakersfield CA"
+        "name": "Bakersfield CA",
+        "type": "Station"
       }
     },
     {
@@ -233,7 +250,8 @@
         ]
       },
       "properties": {
-        "name": "Trenton NJ"
+        "name": "Trenton NJ",
+        "type": "Station"
       }
     },
     {
@@ -246,7 +264,8 @@
         ]
       },
       "properties": {
-        "name": "Waco TX"
+        "name": "Waco TX",
+        "type": "Station"
       }
     },
     {
@@ -293,7 +312,8 @@
         ]
       },
       "properties": {
-        "name": "LAX:CA - SFR:CA"
+        "name": "LAX:CA - SFR:CA",
+        "type": "Route"
       }
     },
     {
@@ -336,7 +356,8 @@
         ]
       },
       "properties": {
-        "name": "WSH:DC - NYC:NY"
+        "name": "WSH:DC - NYC:NY",
+        "type": "Route"
       }
     },
     {
@@ -375,7 +396,8 @@
         ]
       },
       "properties": {
-        "name": "BOS:MA - NYC:NY"
+        "name": "BOS:MA - NYC:NY",
+        "type": "Route"
       }
     },
     {
@@ -414,7 +436,8 @@
         ]
       },
       "properties": {
-        "name": "NYC:NY - BOS:MA"
+        "name": "NYC:NY - BOS:MA",
+        "type": "Route"
       }
     },
     {
@@ -437,7 +460,8 @@
         ]
       },
       "properties": {
-        "name": "DFW:TX - HOU:TX (E)"
+        "name": "DFW:TX - HOU:TX (E)",
+        "type": "Route"
       }
     },
     {
@@ -476,7 +500,8 @@
         ]
       },
       "properties": {
-        "name": "DFW:TX - HOU:TX (W)"
+        "name": "DFW:TX - HOU:TX (W)",
+        "type": "Route"
       }
     },
     {
@@ -519,7 +544,8 @@
         ]
       },
       "properties": {
-        "name": "NYC:NY - WSH:DC"
+        "name": "NYC:NY - WSH:DC",
+        "type": "Route"
       }
     },
     {
@@ -566,7 +592,8 @@
         ]
       },
       "properties": {
-        "name": "SFR:CA - LAX:CA"
+        "name": "SFR:CA - LAX:CA",
+        "type": "Route"
       }
     },
     {
@@ -589,7 +616,8 @@
         ]
       },
       "properties": {
-        "name": "HOU:TX - DFW:TX (E)"
+        "name": "HOU:TX - DFW:TX (E)",
+        "type": "Route"
       }
     },
     {
@@ -628,7 +656,8 @@
         ]
       },
       "properties": {
-        "name": "HOU:TX - DFW:TX (W)"
+        "name": "HOU:TX - DFW:TX (W)",
+        "type": "Route"
       }
     }
   ]
