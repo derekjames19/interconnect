@@ -1,6 +1,5 @@
 {
   "type": "FeatureCollection",
-  "name": "Phase 1",
   "features": [
     {
       "type": "Feature",
@@ -13,7 +12,14 @@
       },
       "properties": {
         "name": "New York NY",
-        "type": "Terminal"
+        "type": "Terminal",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -27,7 +33,34 @@
       },
       "properties": {
         "name": "Los Angeles CA",
-        "type": "Terminal"
+        "type": "Terminal",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.629798,
+          41.878114
+        ]
+      },
+      "properties": {
+        "name": "Chicago IL",
+        "type": "Terminal",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -41,7 +74,14 @@
       },
       "properties": {
         "name": "Dallas TX",
-        "type": "Terminal"
+        "type": "Terminal",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -55,7 +95,34 @@
       },
       "properties": {
         "name": "Houston TX",
-        "type": "Terminal"
+        "type": "Terminal",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.387684,
+          33.748752
+        ]
+      },
+      "properties": {
+        "name": "Atlanta GA",
+        "type": "Terminal",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -69,7 +136,14 @@
       },
       "properties": {
         "name": "Washington DC",
-        "type": "Terminal"
+        "type": "Terminal",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -83,7 +157,54 @@
       },
       "properties": {
         "name": "Philadelphia PA",
-        "type": "Station"
+        "type": "Station",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.19179,
+          25.76168
+        ]
+      },
+      "properties": {
+        "name": "Miami FL",
+        "type": "Terminal",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.074037,
+          33.448377
+        ]
+      },
+      "properties": {
+        "name": "Phoenix AZ",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -97,7 +218,34 @@
       },
       "properties": {
         "name": "Boston MA",
-        "type": "Terminal"
+        "type": "Terminal",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.375494,
+          33.980601
+        ]
+      },
+      "properties": {
+        "name": "Riverside CA",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -111,7 +259,130 @@
       },
       "properties": {
         "name": "San Francisco CA",
-        "type": "Terminal"
+        "type": "Terminal",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.045754,
+          42.331427
+        ]
+      },
+      "properties": {
+        "name": "Detroit MI",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.332071,
+          47.60621
+        ]
+      },
+      "properties": {
+        "name": "Seattle WA",
+        "type": "Terminal",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.265011,
+          44.977753
+        ]
+      },
+      "properties": {
+        "name": "Minneapolis MN",
+        "type": "Terminal",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.457178,
+          27.950575
+        ]
+      },
+      "properties": {
+        "name": "Tampa FL",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.161084,
+          32.715738
+        ]
+      },
+      "properties": {
+        "name": "San Diego CA",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.990251,
+          39.739236
+        ]
+      },
+      "properties": {
+        "name": "Denver CO",
+        "type": "Terminal",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -125,7 +396,74 @@
       },
       "properties": {
         "name": "Baltimore MD",
-        "type": "Station"
+        "type": "Station",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.378927,
+          28.538383
+        ]
+      },
+      "properties": {
+        "name": "Orlando FL",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.843127,
+          35.227087
+        ]
+      },
+      "properties": {
+        "name": "Charlotte NC",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.199404,
+          38.627003
+        ]
+      },
+      "properties": {
+        "name": "St Louis MO",
+        "type": "Terminal",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -139,7 +477,33 @@
       },
       "properties": {
         "name": "San Antonio TX",
-        "type": "Station"
+        "type": "Station",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.678385,
+          45.515232
+        ]
+      },
+      "properties": {
+        "name": "Portland OR",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -153,7 +517,190 @@
       },
       "properties": {
         "name": "Austin TX",
-        "type": "Station"
+        "type": "Station",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.995886,
+          40.440625
+        ]
+      },
+      "properties": {
+        "name": "Pittsburgh PA",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4944,
+          38.581572
+        ]
+      },
+      "properties": {
+        "name": "Sacramento CA",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.139101,
+          36.171563
+        ]
+      },
+      "properties": {
+        "name": "Las Vegas NV",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.51202,
+          39.103118
+        ]
+      },
+      "properties": {
+        "name": "Cincinnati OH",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.578567,
+          39.099727
+        ]
+      },
+      "properties": {
+        "name": "Kansas City MO",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.998794,
+          39.961176
+        ]
+      },
+      "properties": {
+        "name": "Columbus OH",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.694361,
+          41.49932
+        ]
+      },
+      "properties": {
+        "name": "Cleveland OH",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.158068,
+          39.768403
+        ]
+      },
+      "properties": {
+        "name": "Indianapolis IN",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.781602,
+          36.162664
+        ]
+      },
+      "properties": {
+        "name": "Nashville TN",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -167,7 +714,52 @@
       },
       "properties": {
         "name": "San Jose CA",
-        "type": "Station"
+        "type": "Station",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.285873,
+          36.850769
+        ]
+      },
+      "properties": {
+        "name": "Norfolk VA",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.655651,
+          30.332184
+        ]
+      },
+      "properties": {
+        "name": "Jacksonville FL",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -181,7 +773,170 @@
       },
       "properties": {
         "name": "Providence RI",
-        "type": "Station"
+        "type": "Station",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.906474,
+          43.038903
+        ]
+      },
+      "properties": {
+        "name": "Milwaukee WI",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.638179,
+          35.77959
+        ]
+      },
+      "properties": {
+        "name": "Raleigh NC",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.516428,
+          35.46756
+        ]
+      },
+      "properties": {
+        "name": "Oklahoma City OK",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.758456,
+          38.252665
+        ]
+      },
+      "properties": {
+        "name": "Louisville KY",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.436048,
+          37.540725
+        ]
+      },
+      "properties": {
+        "name": "Richmond VA",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.04898,
+          35.149534
+        ]
+      },
+      "properties": {
+        "name": "Memphis TN",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.891047,
+          40.760779
+        ]
+      },
+      "properties": {
+        "name": "Salt Lake City UT",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.810357,
+          33.518589
+        ]
+      },
+      "properties": {
+        "name": "Birmingham AL",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -195,7 +950,51 @@
       },
       "properties": {
         "name": "Fresno CA",
-        "type": "Station"
+        "type": "Station",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.668086,
+          42.96336
+        ]
+      },
+      "properties": {
+        "name": "Grand Rapids MI",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.878369,
+          42.886447
+        ]
+      },
+      "properties": {
+        "name": "Buffalo NY",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -209,7 +1008,128 @@
       },
       "properties": {
         "name": "Hartford CT",
-        "type": "Station"
+        "type": "Station",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.974177,
+          32.253979
+        ]
+      },
+      "properties": {
+        "name": "Tucson AZ",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.608847,
+          43.156578
+        ]
+      },
+      "properties": {
+        "name": "Rochester NY",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.992775,
+          36.153982
+        ]
+      },
+      "properties": {
+        "name": "Tulsa OK",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.934503,
+          41.256537
+        ]
+      },
+      "properties": {
+        "name": "Omaha NE",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.39401,
+          34.852618
+        ]
+      },
+      "properties": {
+        "name": "Greenville SC",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.071532,
+          29.951066
+        ]
+      },
+      "properties": {
+        "name": "New Orleans LA",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -223,7 +1143,53 @@
       },
       "properties": {
         "name": "Bridgeport CT",
-        "type": "Station"
+        "type": "Station",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.920739,
+          35.960638
+        ]
+      },
+      "properties": {
+        "name": "Knoxville TN",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.650422,
+          35.084386
+        ]
+      },
+      "properties": {
+        "name": "Albuquerque NM",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -237,7 +1203,694 @@
       },
       "properties": {
         "name": "Bakersfield CA",
-        "type": "Station"
+        "type": "Station",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.756232,
+          42.652579
+        ]
+      },
+      "properties": {
+        "name": "Albany NY",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.187147,
+          30.451468
+        ]
+      },
+      "properties": {
+        "name": "Baton Rouge LA",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.47141,
+          40.602294
+        ]
+      },
+      "properties": {
+        "name": "Allentown PA",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.485022,
+          31.761878
+        ]
+      },
+      "properties": {
+        "name": "El Paso TX",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.034814,
+          34.00071
+        ]
+      },
+      "properties": {
+        "name": "Columbia SC",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.931051,
+          32.776475
+        ]
+      },
+      "properties": {
+        "name": "Charleston SC",
+        "type": "Station",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.949533,
+          26.562854
+        ]
+      },
+      "properties": {
+        "name": "Cape Coral FL",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.202314,
+          43.615019
+        ]
+      },
+      "properties": {
+        "name": "Boise ID",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.791975,
+          36.072635
+        ]
+      },
+      "properties": {
+        "name": "Greensboro NC",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.821363,
+          38.833882
+        ]
+      },
+      "properties": {
+        "name": "Colorado Springs CO",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.288016,
+          34.744462
+        ]
+      },
+      "properties": {
+        "name": "Little Rock AR",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.624959,
+          41.586835
+        ]
+      },
+      "properties": {
+        "name": "Des Moines IA",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.40075,
+          43.072166
+        ]
+      },
+      "properties": {
+        "name": "Madison WI",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.147424,
+          43.048122
+        ]
+      },
+      "properties": {
+        "name": "Syracuse NY",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.330053,
+          37.687176
+        ]
+      },
+      "properties": {
+        "name": "Wichita KS",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.18481,
+          32.298757
+        ]
+      },
+      "properties": {
+        "name": "Jackson MS",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.886701,
+          40.273191
+        ]
+      },
+      "properties": {
+        "name": "Harrisburg PA",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.426047,
+          47.65878
+        ]
+      },
+      "properties": {
+        "name": "Spokane WA",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.537867,
+          41.652805
+        ]
+      },
+      "properties": {
+        "name": "Toledo OH",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3094,
+          35.045798
+        ]
+      },
+      "properties": {
+        "name": "Chattanooga TN",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.662412,
+          41.408969
+        ]
+      },
+      "properties": {
+        "name": "Scranton PA",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.814269,
+          39.529919
+        ]
+      },
+      "properties": {
+        "name": "Reno NV",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.997001,
+          37.63926
+        ]
+      },
+      "properties": {
+        "name": "Modesto CA",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.358226,
+          27.273049
+        ]
+      },
+      "properties": {
+        "name": "Port St Lucie FL",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.503716,
+          38.040584
+        ]
+      },
+      "properties": {
+        "name": "Lexington KY",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.292299,
+          37.208957
+        ]
+      },
+      "properties": {
+        "name": "Springfield MO",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.886812,
+          34.210389
+        ]
+      },
+      "properties": {
+        "name": "Wilmington NC",
+        "type": "Station",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.139351,
+          41.079273
+        ]
+      },
+      "properties": {
+        "name": "Fort Wayne IN",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.035096,
+          44.942898
+        ]
+      },
+      "properties": {
+        "name": "Salem OR",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.091203,
+          32.080899
+        ]
+      },
+      "properties": {
+        "name": "Savannah GA",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.039891,
+          30.695366
+        ]
+      },
+      "properties": {
+        "name": "Mobile AL",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.886694,
+          33.68906
+        ]
+      },
+      "properties": {
+        "name": "Myrtle Beach SC",
+        "type": "Station",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.126556,
+          30.080174
+        ]
+      },
+      "properties": {
+        "name": "Beaumont TX",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.280733,
+          30.438256
+        ]
+      },
+      "properties": {
+        "name": "Tallahassee FL",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.307737,
+          32.379223
+        ]
+      },
+      "properties": {
+        "name": "Montgomery AL",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.750179,
+          32.525152
+        ]
+      },
+      "properties": {
+        "name": "Shreveport LA",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -251,7 +1904,219 @@
       },
       "properties": {
         "name": "Trenton NJ",
-        "type": "Station"
+        "type": "Station",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.086754,
+          44.052069
+        ]
+      },
+      "properties": {
+        "name": "Eugene OR",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.577637,
+          41.523644
+        ]
+      },
+      "properties": {
+        "name": "Davenport IA",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.084423,
+          40.58526
+        ]
+      },
+      "properties": {
+        "name": "Fort Collins CO",
+        "type": "Station",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.855167,
+          33.577863
+        ]
+      },
+      "properties": {
+        "name": "Lubbock TX",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.324826,
+          29.651634
+        ]
+      },
+      "properties": {
+        "name": "Gainesville FL",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.013296,
+          44.513319
+        ]
+      },
+      "properties": {
+        "name": "Green Bay WI",
+        "type": "Station",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.25199,
+          41.676355
+        ]
+      },
+      "properties": {
+        "name": "South Bend IN",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.941427,
+          37.27097
+        ]
+      },
+      "properties": {
+        "name": "Roanoke VA",
+        "type": "Station",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.119948,
+          46.208668
+        ]
+      },
+      "properties": {
+        "name": "Kennewick WA",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.561819,
+          36.548434
+        ]
+      },
+      "properties": {
+        "name": "Kingsport TN",
+        "type": "Station",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.719993,
+          39.641763
+        ]
+      },
+      "properties": {
+        "name": "Hagerstown MD",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -265,55 +2130,422 @@
       },
       "properties": {
         "name": "Waco TX",
-        "type": "Station"
+        "type": "Station",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            -118.243685,
-            34.052234
-          ],
-          [
-            -118.622387,
-            35.031126
-          ],
-          [
-            -119.018713,
-            35.373292
-          ],
-          [
-            -119.787125,
-            36.737798
-          ],
-          [
-            -120.830664,
-            36.970507
-          ],
-          [
-            -121.543204,
-            37.026638
-          ],
-          [
-            -121.885253,
-            37.33874
-          ],
-          [
-            -122.217709,
-            37.437803
-          ],
-          [
-            -122.405612,
-            37.630041
-          ]
+          -96.731265,
+          43.546022
         ]
       },
       "properties": {
-        "name": "LAX:CA - SFR:CA",
-        "type": "Route"
+        "name": "Sioux Falls SD",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.900695,
+          47.037874
+        ]
+      },
+      "properties": {
+        "name": "Olympia WA",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.57109,
+          37.971559
+        ]
+      },
+      "properties": {
+        "name": "Evansville IN",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.085059,
+          42.129224
+        ]
+      },
+      "properties": {
+        "name": "Erie PA",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.789803,
+          46.877186
+        ]
+      },
+      "properties": {
+        "name": "Fargo ND",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.587229,
+          42.291707
+        ]
+      },
+      "properties": {
+        "name": "Kalamazoo MI",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.632402,
+          32.840695
+        ]
+      },
+      "properties": {
+        "name": "Macon GA",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.875595,
+          42.326515
+        ]
+      },
+      "properties": {
+        "name": "Medford OR",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.632623,
+          38.34982
+        ]
+      },
+      "properties": {
+        "name": "Charleston WV",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.50069,
+          45.783286
+        ]
+      },
+      "properties": {
+        "name": "Billings MT",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.077915,
+          31.997346
+        ]
+      },
+      "properties": {
+        "name": "Midland TX",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391675,
+          40.58654
+        ]
+      },
+      "properties": {
+        "name": "Redding CA",
+        "type": "Station",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.993687,
+          40.484203
+        ]
+      },
+      "properties": {
+        "name": "Bloomington IL",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.342578,
+          42.492786
+        ]
+      },
+      "properties": {
+        "name": "Waterloo IA",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.550649,
+          39.063871
+        ]
+      },
+      "properties": {
+        "name": "Grand Junction CO",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.231015,
+          44.080543
+        ]
+      },
+      "properties": {
+        "name": "Rapid City SD",
+        "type": "Station",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.651302,
+          35.198284
+        ]
+      },
+      "properties": {
+        "name": "Flagstaff AZ",
+        "type": "Station",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.787693,
+          46.805495
+        ]
+      },
+      "properties": {
+        "name": "Bismarck ND",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.994031,
+          46.872128
+        ]
+      },
+      "properties": {
+        "name": "Missoula MT",
+        "type": "Station",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.298082,
+          42.848709
+        ]
+      },
+      "properties": {
+        "name": "Casper WY",
+        "type": "Station",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.061893,
+          37.677477
+        ]
+      },
+      "properties": {
+        "name": "Cedar City UT",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.760145,
+          41.140276
+        ]
+      },
+      "properties": {
+        "name": "North Platte NE",
+        "type": "Station",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -326,38 +2558,2153 @@
             38.907192
           ],
           [
-            -77.047052,
-            39.094018
+            -77.517112,
+            38.614696
           ],
           [
-            -76.612189,
-            39.290385
+            -78.852964,
+            38.439049
           ],
           [
-            -75.802903,
-            39.842341
+            -81.632623,
+            38.34982
           ],
           [
-            -75.165222,
-            39.952584
+            -83.903432,
+            37.833938
           ],
           [
-            -74.759717,
-            40.220582
+            -84.503716,
+            38.040584
           ],
           [
-            -74.557261,
-            40.572729
+            -84.792344,
+            38.290711
           ],
           [
-            -74.128097,
-            40.731073
+            -85.289185,
+            38.382446
+          ],
+          [
+            -85.758456,
+            38.252665
+          ],
+          [
+            -87.57109,
+            37.971559
+          ],
+          [
+            -89.600628,
+            38.034998
           ]
         ]
       },
       "properties": {
-        "name": "WSH:DC - NYC:NY",
-        "type": "Route"
+        "name": "WSH:DC - STL:MO",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -77.036871,
+            38.907192
+          ],
+          [
+            -77.517112,
+            38.614696
+          ],
+          [
+            -77.436048,
+            37.540725
+          ],
+          [
+            -77.421382,
+            37.22776
+          ],
+          [
+            -78.638179,
+            35.77959
+          ],
+          [
+            -79.791975,
+            36.072635
+          ],
+          [
+            -80.843127,
+            35.227087
+          ],
+          [
+            -81.26329,
+            34.85321
+          ],
+          [
+            -81.034814,
+            34.00071
+          ],
+          [
+            -81.306673,
+            32.879521
+          ],
+          [
+            -81.088739,
+            32.447844
+          ],
+          [
+            -81.091203,
+            32.080899
+          ],
+          [
+            -81.398009,
+            31.764291
+          ],
+          [
+            -81.72006,
+            31.005937
+          ],
+          [
+            -81.767394,
+            30.581616
+          ],
+          [
+            -81.885374,
+            30.356583
+          ],
+          [
+            -82.476669,
+            30.194389
+          ],
+          [
+            -82.554349,
+            30.026529
+          ],
+          [
+            -82.324826,
+            29.651634
+          ],
+          [
+            -82.457178,
+            27.950575
+          ],
+          [
+            -82.385793,
+            27.951825
+          ],
+          [
+            -81.958934,
+            27.085243
+          ],
+          [
+            -81.949533,
+            26.562854
+          ],
+          [
+            -81.858572,
+            26.518259
+          ],
+          [
+            -81.713089,
+            26.161237
+          ],
+          [
+            -80.438911,
+            26.143572
+          ],
+          [
+            -80.273951,
+            26.014402
+          ]
+        ]
+      },
+      "properties": {
+        "name": "WSH:DC - MIA:FL (W)",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.19179,
+            25.76168
+          ],
+          [
+            -80.273951,
+            26.014402
+          ],
+          [
+            -80.134582,
+            26.803191
+          ],
+          [
+            -80.358226,
+            27.273049
+          ],
+          [
+            -81.378927,
+            28.538383
+          ],
+          [
+            -81.406203,
+            29.893582
+          ],
+          [
+            -81.655651,
+            30.332184
+          ],
+          [
+            -81.715566,
+            30.388275
+          ],
+          [
+            -81.767394,
+            30.581616
+          ],
+          [
+            -81.72006,
+            31.005937
+          ],
+          [
+            -81.398009,
+            31.764291
+          ],
+          [
+            -81.091203,
+            32.080899
+          ],
+          [
+            -81.088739,
+            32.447844
+          ],
+          [
+            -81.306673,
+            32.879521
+          ],
+          [
+            -83.405239,
+            33.877163
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MIA:FL - ATL:GA (E)",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -85.3094,
+            35.045798
+          ],
+          [
+            -85.333135,
+            35.357503
+          ],
+          [
+            -86.781602,
+            36.162664
+          ],
+          [
+            -87.350166,
+            36.358808
+          ],
+          [
+            -87.57109,
+            37.971559
+          ],
+          [
+            -85.758456,
+            38.252665
+          ],
+          [
+            -86.158068,
+            39.768403
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -87.545238,
+            41.682932
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - CHI:IL (W)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -85.487017,
+            33.366378
+          ],
+          [
+            -86.810357,
+            33.518589
+          ],
+          [
+            -88.025812,
+            33.563202
+          ],
+          [
+            -88.849355,
+            32.343537
+          ],
+          [
+            -90.18481,
+            32.298757
+          ],
+          [
+            -93.750179,
+            32.525152
+          ],
+          [
+            -93.990004,
+            33.113312
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -96.493485,
+            32.786363
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - DFW:TX (S)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -85.3094,
+            35.045798
+          ],
+          [
+            -85.333135,
+            35.357503
+          ],
+          [
+            -86.781602,
+            36.162664
+          ],
+          [
+            -87.350166,
+            36.358808
+          ],
+          [
+            -87.57109,
+            37.971559
+          ],
+          [
+            -85.758456,
+            38.252665
+          ],
+          [
+            -85.289185,
+            38.382446
+          ],
+          [
+            -84.900171,
+            38.624078
+          ],
+          [
+            -84.51202,
+            39.103118
+          ],
+          [
+            -84.310057,
+            39.506091
+          ],
+          [
+            -84.370692,
+            40.154625
+          ],
+          [
+            -85.139351,
+            41.079273
+          ],
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -87.545238,
+            41.682932
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - CHI:IL (Temp)",
+        "type": "Route",
+        "phases": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -85.487017,
+            33.366378
+          ],
+          [
+            -86.307737,
+            32.379223
+          ],
+          [
+            -87.245467,
+            31.000294
+          ],
+          [
+            -88.039891,
+            30.695366
+          ],
+          [
+            -89.724244,
+            30.296316
+          ],
+          [
+            -90.071532,
+            29.951066
+          ],
+          [
+            -90.350517,
+            30.006419
+          ],
+          [
+            -91.187147,
+            30.451468
+          ],
+          [
+            -94.126556,
+            30.080174
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - HOU:TX",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.19179,
+            25.76168
+          ],
+          [
+            -80.273951,
+            26.014402
+          ],
+          [
+            -80.134582,
+            26.803191
+          ],
+          [
+            -80.358226,
+            27.273049
+          ],
+          [
+            -81.378927,
+            28.538383
+          ],
+          [
+            -81.406203,
+            29.893582
+          ],
+          [
+            -81.655651,
+            30.332184
+          ],
+          [
+            -81.715566,
+            30.388275
+          ],
+          [
+            -81.885374,
+            30.356583
+          ],
+          [
+            -82.476669,
+            30.194389
+          ],
+          [
+            -82.74226,
+            30.202064
+          ],
+          [
+            -83.419997,
+            30.420042
+          ],
+          [
+            -84.280733,
+            30.438256
+          ],
+          [
+            -87.245467,
+            31.000294
+          ],
+          [
+            -88.039891,
+            30.695366
+          ],
+          [
+            -88.849355,
+            32.343537
+          ],
+          [
+            -90.18481,
+            32.298757
+          ],
+          [
+            -93.750179,
+            32.525152
+          ],
+          [
+            -93.990004,
+            33.113312
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -96.493485,
+            32.786363
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MIA:FL - DFW:TX (E)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -85.487017,
+            33.366378
+          ],
+          [
+            -86.810357,
+            33.518589
+          ],
+          [
+            -88.025812,
+            33.563202
+          ],
+          [
+            -90.04898,
+            35.149534
+          ],
+          [
+            -92.288016,
+            34.744462
+          ],
+          [
+            -93.89534,
+            33.687711
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -96.493485,
+            32.786363
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - DFW:TX (N)",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.19179,
+            25.76168
+          ],
+          [
+            -80.273951,
+            26.014402
+          ],
+          [
+            -80.438911,
+            26.143572
+          ],
+          [
+            -81.713089,
+            26.161237
+          ],
+          [
+            -81.858572,
+            26.518259
+          ],
+          [
+            -81.949533,
+            26.562854
+          ],
+          [
+            -81.958934,
+            27.085243
+          ],
+          [
+            -82.385793,
+            27.951825
+          ],
+          [
+            -82.457178,
+            27.950575
+          ],
+          [
+            -82.324826,
+            29.651634
+          ],
+          [
+            -82.554349,
+            30.026529
+          ],
+          [
+            -82.74226,
+            30.202064
+          ],
+          [
+            -83.419997,
+            30.420042
+          ],
+          [
+            -83.632402,
+            32.840695
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MIA:FL - ATL:GA (W)",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -85.3094,
+            35.045798
+          ],
+          [
+            -85.333135,
+            35.357503
+          ],
+          [
+            -86.781602,
+            36.162664
+          ],
+          [
+            -87.350166,
+            36.358808
+          ],
+          [
+            -89.47194,
+            35.874686
+          ],
+          [
+            -90.04898,
+            35.149534
+          ],
+          [
+            -92.288016,
+            34.744462
+          ],
+          [
+            -93.89534,
+            33.687711
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -96.493485,
+            32.786363
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - DFW:TX (Temp)",
+        "type": "Route",
+        "phases": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -83.405239,
+            33.877163
+          ],
+          [
+            -81.306673,
+            32.879521
+          ],
+          [
+            -81.088739,
+            32.447844
+          ],
+          [
+            -81.091203,
+            32.080899
+          ],
+          [
+            -81.398009,
+            31.764291
+          ],
+          [
+            -81.72006,
+            31.005937
+          ],
+          [
+            -81.767394,
+            30.581616
+          ],
+          [
+            -81.715566,
+            30.388275
+          ],
+          [
+            -81.655651,
+            30.332184
+          ],
+          [
+            -81.406203,
+            29.893582
+          ],
+          [
+            -81.378927,
+            28.538383
+          ],
+          [
+            -80.358226,
+            27.273049
+          ],
+          [
+            -80.134582,
+            26.803191
+          ],
+          [
+            -80.273951,
+            26.014402
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - MIA:FL (E)",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.19179,
+            25.76168
+          ],
+          [
+            -80.273951,
+            26.014402
+          ],
+          [
+            -80.438911,
+            26.143572
+          ],
+          [
+            -81.713089,
+            26.161237
+          ],
+          [
+            -81.858572,
+            26.518259
+          ],
+          [
+            -81.949533,
+            26.562854
+          ],
+          [
+            -81.958934,
+            27.085243
+          ],
+          [
+            -82.385793,
+            27.951825
+          ],
+          [
+            -82.457178,
+            27.950575
+          ],
+          [
+            -82.324826,
+            29.651634
+          ],
+          [
+            -82.554349,
+            30.026529
+          ],
+          [
+            -82.74226,
+            30.202064
+          ],
+          [
+            -83.419997,
+            30.420042
+          ],
+          [
+            -84.280733,
+            30.438256
+          ],
+          [
+            -87.245467,
+            31.000294
+          ],
+          [
+            -88.039891,
+            30.695366
+          ],
+          [
+            -88.849355,
+            32.343537
+          ],
+          [
+            -90.18481,
+            32.298757
+          ],
+          [
+            -93.750179,
+            32.525152
+          ],
+          [
+            -93.990004,
+            33.113312
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -96.493485,
+            32.786363
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MIA:FL - DFW:TX (W)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.19179,
+            25.76168
+          ],
+          [
+            -80.273951,
+            26.014402
+          ],
+          [
+            -80.134582,
+            26.803191
+          ],
+          [
+            -80.358226,
+            27.273049
+          ],
+          [
+            -81.378927,
+            28.538383
+          ],
+          [
+            -81.406203,
+            29.893582
+          ],
+          [
+            -81.655651,
+            30.332184
+          ],
+          [
+            -81.715566,
+            30.388275
+          ],
+          [
+            -81.885374,
+            30.356583
+          ],
+          [
+            -82.476669,
+            30.194389
+          ],
+          [
+            -82.74226,
+            30.202064
+          ],
+          [
+            -83.419997,
+            30.420042
+          ],
+          [
+            -84.280733,
+            30.438256
+          ],
+          [
+            -87.245467,
+            31.000294
+          ],
+          [
+            -88.039891,
+            30.695366
+          ],
+          [
+            -89.724244,
+            30.296316
+          ],
+          [
+            -90.071532,
+            29.951066
+          ],
+          [
+            -90.350517,
+            30.006419
+          ],
+          [
+            -91.187147,
+            30.451468
+          ],
+          [
+            -94.126556,
+            30.080174
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MIA:FL - HOU:TX (E)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -85.487017,
+            33.366378
+          ],
+          [
+            -86.810357,
+            33.518589
+          ],
+          [
+            -88.025812,
+            33.563202
+          ],
+          [
+            -88.849355,
+            32.343537
+          ],
+          [
+            -90.18481,
+            32.298757
+          ],
+          [
+            -93.750179,
+            32.525152
+          ],
+          [
+            -95.533104,
+            30.735423
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - HOU:TX (Temp)",
+        "type": "Route",
+        "phases": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.19179,
+            25.76168
+          ],
+          [
+            -80.273951,
+            26.014402
+          ],
+          [
+            -80.438911,
+            26.143572
+          ],
+          [
+            -81.713089,
+            26.161237
+          ],
+          [
+            -81.858572,
+            26.518259
+          ],
+          [
+            -81.949533,
+            26.562854
+          ],
+          [
+            -81.958934,
+            27.085243
+          ],
+          [
+            -82.385793,
+            27.951825
+          ],
+          [
+            -82.457178,
+            27.950575
+          ],
+          [
+            -82.324826,
+            29.651634
+          ],
+          [
+            -82.554349,
+            30.026529
+          ],
+          [
+            -82.74226,
+            30.202064
+          ],
+          [
+            -83.419997,
+            30.420042
+          ],
+          [
+            -84.280733,
+            30.438256
+          ],
+          [
+            -87.245467,
+            31.000294
+          ],
+          [
+            -88.039891,
+            30.695366
+          ],
+          [
+            -89.724244,
+            30.296316
+          ],
+          [
+            -90.071532,
+            29.951066
+          ],
+          [
+            -90.350517,
+            30.006419
+          ],
+          [
+            -91.187147,
+            30.451468
+          ],
+          [
+            -94.126556,
+            30.080174
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MIA:FL - HOU:TX (W)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -85.3094,
+            35.045798
+          ],
+          [
+            -85.333135,
+            35.357503
+          ],
+          [
+            -86.781602,
+            36.162664
+          ],
+          [
+            -87.350166,
+            36.358808
+          ],
+          [
+            -87.57109,
+            37.971559
+          ],
+          [
+            -89.600628,
+            38.034998
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - STL:MO",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.19179,
+            25.76168
+          ],
+          [
+            -80.273951,
+            26.014402
+          ],
+          [
+            -80.134582,
+            26.803191
+          ],
+          [
+            -80.358226,
+            27.273049
+          ],
+          [
+            -81.378927,
+            28.538383
+          ],
+          [
+            -81.406203,
+            29.893582
+          ],
+          [
+            -81.655651,
+            30.332184
+          ],
+          [
+            -81.715566,
+            30.388275
+          ],
+          [
+            -81.767394,
+            30.581616
+          ],
+          [
+            -81.72006,
+            31.005937
+          ],
+          [
+            -81.398009,
+            31.764291
+          ],
+          [
+            -81.091203,
+            32.080899
+          ],
+          [
+            -81.088739,
+            32.447844
+          ],
+          [
+            -81.306673,
+            32.879521
+          ],
+          [
+            -81.034814,
+            34.00071
+          ],
+          [
+            -81.26329,
+            34.85321
+          ],
+          [
+            -80.843127,
+            35.227087
+          ],
+          [
+            -79.791975,
+            36.072635
+          ],
+          [
+            -78.638179,
+            35.77959
+          ],
+          [
+            -77.421382,
+            37.22776
+          ],
+          [
+            -77.436048,
+            37.540725
+          ],
+          [
+            -77.517112,
+            38.614696
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MIA:FL - WSH:DC (Temp)",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.19179,
+            25.76168
+          ],
+          [
+            -80.273951,
+            26.014402
+          ],
+          [
+            -80.134582,
+            26.803191
+          ],
+          [
+            -80.358226,
+            27.273049
+          ],
+          [
+            -81.378927,
+            28.538383
+          ],
+          [
+            -81.406203,
+            29.893582
+          ],
+          [
+            -81.655651,
+            30.332184
+          ],
+          [
+            -81.715566,
+            30.388275
+          ],
+          [
+            -81.767394,
+            30.581616
+          ],
+          [
+            -81.72006,
+            31.005937
+          ],
+          [
+            -81.398009,
+            31.764291
+          ],
+          [
+            -81.091203,
+            32.080899
+          ],
+          [
+            -81.088739,
+            32.447844
+          ],
+          [
+            -80.634214,
+            32.721641
+          ],
+          [
+            -79.931051,
+            32.776475
+          ],
+          [
+            -79.293494,
+            33.415161
+          ],
+          [
+            -78.886694,
+            33.68906
+          ],
+          [
+            -78.767313,
+            33.801373
+          ],
+          [
+            -77.886812,
+            34.210389
+          ],
+          [
+            -78.638179,
+            35.77959
+          ],
+          [
+            -77.421382,
+            37.22776
+          ],
+          [
+            -77.436048,
+            37.540725
+          ],
+          [
+            -77.517112,
+            38.614696
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MIA:FL - WSH:DC (E)",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -83.632402,
+            32.840695
+          ],
+          [
+            -83.419997,
+            30.420042
+          ],
+          [
+            -82.74226,
+            30.202064
+          ],
+          [
+            -82.554349,
+            30.026529
+          ],
+          [
+            -82.324826,
+            29.651634
+          ],
+          [
+            -82.457178,
+            27.950575
+          ],
+          [
+            -82.385793,
+            27.951825
+          ],
+          [
+            -81.958934,
+            27.085243
+          ],
+          [
+            -81.949533,
+            26.562854
+          ],
+          [
+            -81.858572,
+            26.518259
+          ],
+          [
+            -81.713089,
+            26.161237
+          ],
+          [
+            -80.438911,
+            26.143572
+          ],
+          [
+            -80.273951,
+            26.014402
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - MIA:FL (W)",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.265011,
+            44.977753
+          ],
+          [
+            -92.917706,
+            44.968362
+          ],
+          [
+            -91.221859,
+            44.50986
+          ],
+          [
+            -89.495603,
+            43.070629
+          ],
+          [
+            -89.40075,
+            43.072166
+          ],
+          [
+            -89.351234,
+            43.092322
+          ],
+          [
+            -88.302549,
+            43.312261
+          ],
+          [
+            -87.906474,
+            43.038903
+          ],
+          [
+            -87.868477,
+            42.286116
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MSP:MN - CHI:IL (SW)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -83.405239,
+            33.877163
+          ],
+          [
+            -82.39401,
+            34.852618
+          ],
+          [
+            -81.26329,
+            34.85321
+          ],
+          [
+            -80.843127,
+            35.227087
+          ],
+          [
+            -79.791975,
+            36.072635
+          ],
+          [
+            -78.638179,
+            35.77959
+          ],
+          [
+            -77.421382,
+            37.22776
+          ],
+          [
+            -77.436048,
+            37.540725
+          ],
+          [
+            -77.517112,
+            38.614696
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - WSH:DC (SE)",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -85.3094,
+            35.045798
+          ],
+          [
+            -85.333135,
+            35.357503
+          ],
+          [
+            -83.920739,
+            35.960638
+          ],
+          [
+            -83.628711,
+            36.324591
+          ],
+          [
+            -82.561819,
+            36.548434
+          ],
+          [
+            -79.941427,
+            37.27097
+          ],
+          [
+            -78.852964,
+            38.439049
+          ],
+          [
+            -77.517112,
+            38.614696
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - WSH:DC (NW)",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.265011,
+            44.977753
+          ],
+          [
+            -92.917706,
+            44.968362
+          ],
+          [
+            -91.221859,
+            44.50986
+          ],
+          [
+            -88.013296,
+            44.513319
+          ],
+          [
+            -88.302549,
+            43.312261
+          ],
+          [
+            -87.906474,
+            43.038903
+          ],
+          [
+            -87.868477,
+            42.286116
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MSP:MN - CHI:IL (NE)",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.19179,
+            25.76168
+          ],
+          [
+            -80.273951,
+            26.014402
+          ],
+          [
+            -80.438911,
+            26.143572
+          ],
+          [
+            -81.713089,
+            26.161237
+          ],
+          [
+            -81.858572,
+            26.518259
+          ],
+          [
+            -81.949533,
+            26.562854
+          ],
+          [
+            -81.958934,
+            27.085243
+          ],
+          [
+            -82.385793,
+            27.951825
+          ],
+          [
+            -82.457178,
+            27.950575
+          ],
+          [
+            -82.324826,
+            29.651634
+          ],
+          [
+            -82.554349,
+            30.026529
+          ],
+          [
+            -82.476669,
+            30.194389
+          ],
+          [
+            -81.885374,
+            30.356583
+          ],
+          [
+            -81.767394,
+            30.581616
+          ],
+          [
+            -81.72006,
+            31.005937
+          ],
+          [
+            -81.398009,
+            31.764291
+          ],
+          [
+            -81.091203,
+            32.080899
+          ],
+          [
+            -81.088739,
+            32.447844
+          ],
+          [
+            -81.306673,
+            32.879521
+          ],
+          [
+            -81.034814,
+            34.00071
+          ],
+          [
+            -81.26329,
+            34.85321
+          ],
+          [
+            -80.843127,
+            35.227087
+          ],
+          [
+            -79.791975,
+            36.072635
+          ],
+          [
+            -78.638179,
+            35.77959
+          ],
+          [
+            -77.421382,
+            37.22776
+          ],
+          [
+            -77.436048,
+            37.540725
+          ],
+          [
+            -77.517112,
+            38.614696
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MIA:FL - WSH:DC (W)",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.265011,
+            44.977753
+          ],
+          [
+            -93.768606,
+            44.171597
+          ],
+          [
+            -96.731265,
+            43.546022
+          ],
+          [
+            -97.498867,
+            43.431182
+          ],
+          [
+            -99.323961,
+            41.586334
+          ],
+          [
+            -100.760145,
+            41.140276
+          ],
+          [
+            -102.335558,
+            39.69896
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MSP:MN - DEN:CO",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.265011,
+            44.977753
+          ],
+          [
+            -93.768606,
+            44.171597
+          ],
+          [
+            -93.430257,
+            42.853052
+          ],
+          [
+            -92.342578,
+            42.492786
+          ],
+          [
+            -91.509399,
+            41.813544
+          ],
+          [
+            -90.577637,
+            41.523644
+          ],
+          [
+            -90.063373,
+            41.381238
+          ],
+          [
+            -89.772959,
+            39.919934
+          ],
+          [
+            -90.073293,
+            38.765798
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MSP:MN - STL:MO",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.05888,
+            42.360083
+          ],
+          [
+            -71.412834,
+            41.823989
+          ],
+          [
+            -72.673372,
+            41.765804
+          ],
+          [
+            -72.873521,
+            41.762322
+          ],
+          [
+            -73.756232,
+            42.652579
+          ],
+          [
+            -76.147424,
+            43.048122
+          ],
+          [
+            -77.608847,
+            43.156578
+          ],
+          [
+            -78.878369,
+            42.886447
+          ],
+          [
+            -78.812877,
+            42.783815
+          ],
+          [
+            -79.12545,
+            42.536244
+          ],
+          [
+            -79.525783,
+            42.27381
+          ],
+          [
+            -80.085059,
+            42.129224
+          ],
+          [
+            -80.433615,
+            41.958165
+          ],
+          [
+            -81.694361,
+            41.49932
+          ],
+          [
+            -81.792405,
+            41.466693
+          ],
+          [
+            -82.474613,
+            41.356576
+          ],
+          [
+            -82.99542,
+            41.372933
+          ],
+          [
+            -83.537867,
+            41.652805
+          ],
+          [
+            -85.139351,
+            41.079273
+          ],
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -87.545238,
+            41.682932
+          ]
+        ]
+      },
+      "properties": {
+        "name": "BOS:MA - CHI:IL",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.265011,
+            44.977753
+          ],
+          [
+            -93.768606,
+            44.171597
+          ],
+          [
+            -93.430257,
+            42.853052
+          ],
+          [
+            -93.369282,
+            41.766815
+          ],
+          [
+            -93.624959,
+            41.586835
+          ],
+          [
+            -94.370681,
+            41.142645
+          ],
+          [
+            -94.578567,
+            39.099727
+          ],
+          [
+            -97.330053,
+            37.687176
+          ],
+          [
+            -97.127949,
+            36.046237
+          ],
+          [
+            -97.516428,
+            35.46756
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MSP:MN - DFW:TX",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -397,7 +4744,1012 @@
       },
       "properties": {
         "name": "BOS:MA - NYC:NY",
-        "type": "Route"
+        "type": "Route",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.265011,
+            44.977753
+          ],
+          [
+            -96.789803,
+            46.877186
+          ],
+          [
+            -100.787693,
+            46.805495
+          ],
+          [
+            -107.624575,
+            45.534259
+          ],
+          [
+            -108.50069,
+            45.783286
+          ],
+          [
+            -111.527619,
+            46.343536
+          ],
+          [
+            -113.994031,
+            46.872128
+          ],
+          [
+            -117.426047,
+            47.65878
+          ],
+          [
+            -120.848289,
+            47.157821
+          ],
+          [
+            -122.245211,
+            47.467607
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MSP:MN - SEA:WA (N)",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.265011,
+            44.977753
+          ],
+          [
+            -93.768606,
+            44.171597
+          ],
+          [
+            -96.731265,
+            43.546022
+          ],
+          [
+            -97.498867,
+            43.431182
+          ],
+          [
+            -103.231015,
+            44.080543
+          ],
+          [
+            -106.707471,
+            44.374767
+          ],
+          [
+            -107.624575,
+            45.534259
+          ],
+          [
+            -108.50069,
+            45.783286
+          ],
+          [
+            -111.527619,
+            46.343536
+          ],
+          [
+            -113.994031,
+            46.872128
+          ],
+          [
+            -117.426047,
+            47.65878
+          ],
+          [
+            -120.848289,
+            47.157821
+          ],
+          [
+            -122.245211,
+            47.467607
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MSP:MN - SEA:WA (S)",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.629798,
+            41.878114
+          ],
+          [
+            -87.545238,
+            41.682932
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -85.139351,
+            41.079273
+          ],
+          [
+            -84.370692,
+            40.154625
+          ],
+          [
+            -84.310057,
+            39.506091
+          ],
+          [
+            -84.51202,
+            39.103118
+          ],
+          [
+            -84.900171,
+            38.624078
+          ],
+          [
+            -84.792344,
+            38.290711
+          ],
+          [
+            -84.503716,
+            38.040584
+          ],
+          [
+            -83.903432,
+            37.833938
+          ],
+          [
+            -83.628711,
+            36.324591
+          ],
+          [
+            -83.920739,
+            35.960638
+          ],
+          [
+            -85.333135,
+            35.357503
+          ],
+          [
+            -85.3094,
+            35.045798
+          ]
+        ]
+      },
+      "properties": {
+        "name": "CHI:IL - ATL:GA (E)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.629798,
+            41.878114
+          ],
+          [
+            -88.77768,
+            41.395735
+          ],
+          [
+            -90.063373,
+            41.381238
+          ],
+          [
+            -90.577637,
+            41.523644
+          ],
+          [
+            -91.509399,
+            41.813544
+          ],
+          [
+            -93.369282,
+            41.766815
+          ],
+          [
+            -93.624959,
+            41.586835
+          ],
+          [
+            -94.370681,
+            41.142645
+          ],
+          [
+            -95.934503,
+            41.256537
+          ],
+          [
+            -99.323961,
+            41.586334
+          ],
+          [
+            -100.760145,
+            41.140276
+          ],
+          [
+            -102.335558,
+            39.69896
+          ]
+        ]
+      },
+      "properties": {
+        "name": "CHI:IL - DEN:CO",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.629798,
+            41.878114
+          ],
+          [
+            -87.545238,
+            41.682932
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -86.158068,
+            39.768403
+          ],
+          [
+            -85.758456,
+            38.252665
+          ],
+          [
+            -87.57109,
+            37.971559
+          ],
+          [
+            -87.350166,
+            36.358808
+          ],
+          [
+            -86.781602,
+            36.162664
+          ],
+          [
+            -85.333135,
+            35.357503
+          ],
+          [
+            -85.3094,
+            35.045798
+          ]
+        ]
+      },
+      "properties": {
+        "name": "CHI:IL - ATL:GA (W)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.629798,
+            41.878114
+          ],
+          [
+            -87.545238,
+            41.682932
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -85.139351,
+            41.079273
+          ],
+          [
+            -84.370692,
+            40.154625
+          ],
+          [
+            -84.310057,
+            39.506091
+          ],
+          [
+            -84.51202,
+            39.103118
+          ],
+          [
+            -84.900171,
+            38.624078
+          ],
+          [
+            -85.289185,
+            38.382446
+          ],
+          [
+            -85.758456,
+            38.252665
+          ],
+          [
+            -87.57109,
+            37.971559
+          ],
+          [
+            -87.350166,
+            36.358808
+          ],
+          [
+            -86.781602,
+            36.162664
+          ],
+          [
+            -85.333135,
+            35.357503
+          ],
+          [
+            -85.3094,
+            35.045798
+          ]
+        ]
+      },
+      "properties": {
+        "name": "CHI:IL - ATL:GA (Temp)",
+        "type": "Route",
+        "phases": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.629798,
+            41.878114
+          ],
+          [
+            -87.545238,
+            41.682932
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -85.139351,
+            41.079273
+          ],
+          [
+            -83.537867,
+            41.652805
+          ],
+          [
+            -82.99542,
+            41.372933
+          ],
+          [
+            -82.474613,
+            41.356576
+          ],
+          [
+            -81.792405,
+            41.466693
+          ],
+          [
+            -81.694361,
+            41.49932
+          ],
+          [
+            -80.433615,
+            41.958165
+          ],
+          [
+            -80.085059,
+            42.129224
+          ],
+          [
+            -79.525783,
+            42.27381
+          ],
+          [
+            -79.12545,
+            42.536244
+          ],
+          [
+            -78.812877,
+            42.783815
+          ],
+          [
+            -78.878369,
+            42.886447
+          ],
+          [
+            -77.608847,
+            43.156578
+          ],
+          [
+            -76.147424,
+            43.048122
+          ],
+          [
+            -73.756232,
+            42.652579
+          ],
+          [
+            -72.873521,
+            41.762322
+          ],
+          [
+            -72.673372,
+            41.765804
+          ],
+          [
+            -71.412834,
+            41.823989
+          ]
+        ]
+      },
+      "properties": {
+        "name": "CHI:IL - BOS:MA",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.629798,
+            41.878114
+          ],
+          [
+            -87.868477,
+            42.286116
+          ],
+          [
+            -87.906474,
+            43.038903
+          ],
+          [
+            -88.302549,
+            43.312261
+          ],
+          [
+            -89.351234,
+            43.092322
+          ],
+          [
+            -89.40075,
+            43.072166
+          ],
+          [
+            -89.495603,
+            43.070629
+          ],
+          [
+            -91.221859,
+            44.50986
+          ],
+          [
+            -92.917706,
+            44.968362
+          ]
+        ]
+      },
+      "properties": {
+        "name": "CHI:IL - MSP:MN (SW)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.629798,
+            41.878114
+          ],
+          [
+            -87.868477,
+            42.286116
+          ],
+          [
+            -87.906474,
+            43.038903
+          ],
+          [
+            -88.302549,
+            43.312261
+          ],
+          [
+            -88.013296,
+            44.513319
+          ],
+          [
+            -91.221859,
+            44.50986
+          ],
+          [
+            -92.917706,
+            44.968362
+          ]
+        ]
+      },
+      "properties": {
+        "name": "CHI:IL - MSP:MN (NE)",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.629798,
+            41.878114
+          ],
+          [
+            -87.545238,
+            41.682932
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -85.139351,
+            41.079273
+          ],
+          [
+            -84.370692,
+            40.154625
+          ],
+          [
+            -83.673069,
+            39.921095
+          ],
+          [
+            -82.998794,
+            39.961176
+          ],
+          [
+            -79.995886,
+            40.440625
+          ],
+          [
+            -78.247024,
+            40.011007
+          ],
+          [
+            -76.886701,
+            40.273191
+          ],
+          [
+            -75.802903,
+            39.842341
+          ],
+          [
+            -75.165222,
+            39.952584
+          ],
+          [
+            -74.759717,
+            40.220582
+          ],
+          [
+            -74.557261,
+            40.572729
+          ],
+          [
+            -74.128097,
+            40.731073
+          ]
+        ]
+      },
+      "properties": {
+        "name": "CHI:IL - NYC:NY (S)",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.629798,
+            41.878114
+          ],
+          [
+            -87.545238,
+            41.682932
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -85.139351,
+            41.079273
+          ],
+          [
+            -83.537867,
+            41.652805
+          ],
+          [
+            -82.99542,
+            41.372933
+          ],
+          [
+            -82.474613,
+            41.356576
+          ],
+          [
+            -81.792405,
+            41.466693
+          ],
+          [
+            -81.694361,
+            41.49932
+          ],
+          [
+            -80.433615,
+            41.958165
+          ],
+          [
+            -80.085059,
+            42.129224
+          ],
+          [
+            -79.525783,
+            42.27381
+          ],
+          [
+            -78.690783,
+            42.170065
+          ],
+          [
+            -75.662412,
+            41.408969
+          ],
+          [
+            -75.47141,
+            40.602294
+          ],
+          [
+            -74.557261,
+            40.572729
+          ],
+          [
+            -74.128097,
+            40.731073
+          ]
+        ]
+      },
+      "properties": {
+        "name": "CHI:IL - NYC:NY (N)",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.629798,
+            41.878114
+          ],
+          [
+            -88.77768,
+            41.395735
+          ],
+          [
+            -88.993687,
+            40.484203
+          ],
+          [
+            -89.772959,
+            39.919934
+          ],
+          [
+            -90.073293,
+            38.765798
+          ]
+        ]
+      },
+      "properties": {
+        "name": "CHI:IL - STL:MO",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.629798,
+            41.878114
+          ],
+          [
+            -87.545238,
+            41.682932
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -85.139351,
+            41.079273
+          ],
+          [
+            -84.370692,
+            40.154625
+          ],
+          [
+            -83.673069,
+            39.921095
+          ],
+          [
+            -82.998794,
+            39.961176
+          ],
+          [
+            -79.995886,
+            40.440625
+          ],
+          [
+            -78.247024,
+            40.011007
+          ],
+          [
+            -77.719993,
+            39.641763
+          ],
+          [
+            -77.047052,
+            39.094018
+          ]
+        ]
+      },
+      "properties": {
+        "name": "CHI:IL - WSH:DC",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.796988,
+            32.776664
+          ],
+          [
+            -96.493485,
+            32.786363
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -93.990004,
+            33.113312
+          ],
+          [
+            -93.750179,
+            32.525152
+          ],
+          [
+            -90.18481,
+            32.298757
+          ],
+          [
+            -88.849355,
+            32.343537
+          ],
+          [
+            -88.025812,
+            33.563202
+          ],
+          [
+            -86.810357,
+            33.518589
+          ],
+          [
+            -85.487017,
+            33.366378
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DFW:TX - ATL:GA (S)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.796988,
+            32.776664
+          ],
+          [
+            -96.493485,
+            32.786363
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -93.89534,
+            33.687711
+          ],
+          [
+            -92.288016,
+            34.744462
+          ],
+          [
+            -90.04898,
+            35.149534
+          ],
+          [
+            -88.025812,
+            33.563202
+          ],
+          [
+            -86.810357,
+            33.518589
+          ],
+          [
+            -85.487017,
+            33.366378
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DFW:TX - ATL:GA (N)",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
       }
     },
     {
@@ -437,7 +5789,403 @@
       },
       "properties": {
         "name": "NYC:NY - BOS:MA",
-        "type": "Route"
+        "type": "Route",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.796988,
+            32.776664
+          ],
+          [
+            -97.516428,
+            35.46756
+          ],
+          [
+            -97.127949,
+            36.046237
+          ],
+          [
+            -97.330053,
+            37.687176
+          ],
+          [
+            -102.335558,
+            39.69896
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DFW:TX - DEN:CO",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.005973,
+            40.712775
+          ],
+          [
+            -74.128097,
+            40.731073
+          ],
+          [
+            -74.557261,
+            40.572729
+          ],
+          [
+            -75.47141,
+            40.602294
+          ],
+          [
+            -75.662412,
+            41.408969
+          ],
+          [
+            -78.690783,
+            42.170065
+          ],
+          [
+            -79.525783,
+            42.27381
+          ],
+          [
+            -80.085059,
+            42.129224
+          ],
+          [
+            -80.433615,
+            41.958165
+          ],
+          [
+            -81.694361,
+            41.49932
+          ],
+          [
+            -81.792405,
+            41.466693
+          ],
+          [
+            -82.474613,
+            41.356576
+          ],
+          [
+            -82.99542,
+            41.372933
+          ],
+          [
+            -83.537867,
+            41.652805
+          ],
+          [
+            -85.139351,
+            41.079273
+          ],
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -87.545238,
+            41.682932
+          ]
+        ]
+      },
+      "properties": {
+        "name": "NYC:NY - CHI:IL (N)",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.796988,
+            32.776664
+          ],
+          [
+            -96.493485,
+            32.786363
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -93.89534,
+            33.687711
+          ],
+          [
+            -92.288016,
+            34.744462
+          ],
+          [
+            -90.04898,
+            35.149534
+          ],
+          [
+            -89.47194,
+            35.874686
+          ],
+          [
+            -87.350166,
+            36.358808
+          ],
+          [
+            -86.781602,
+            36.162664
+          ],
+          [
+            -85.333135,
+            35.357503
+          ],
+          [
+            -85.3094,
+            35.045798
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DFW:TX - ATL:GA (Temp)",
+        "type": "Route",
+        "phases": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.005973,
+            40.712775
+          ],
+          [
+            -74.128097,
+            40.731073
+          ],
+          [
+            -74.557261,
+            40.572729
+          ],
+          [
+            -74.759717,
+            40.220582
+          ],
+          [
+            -75.165222,
+            39.952584
+          ],
+          [
+            -75.802903,
+            39.842341
+          ],
+          [
+            -76.886701,
+            40.273191
+          ],
+          [
+            -78.247024,
+            40.011007
+          ],
+          [
+            -79.995886,
+            40.440625
+          ],
+          [
+            -82.998794,
+            39.961176
+          ],
+          [
+            -83.673069,
+            39.921095
+          ],
+          [
+            -84.310057,
+            39.506091
+          ],
+          [
+            -84.51202,
+            39.103118
+          ],
+          [
+            -84.900171,
+            38.624078
+          ],
+          [
+            -85.289185,
+            38.382446
+          ],
+          [
+            -85.758456,
+            38.252665
+          ],
+          [
+            -87.57109,
+            37.971559
+          ],
+          [
+            -87.350166,
+            36.358808
+          ],
+          [
+            -89.47194,
+            35.874686
+          ],
+          [
+            -90.04898,
+            35.149534
+          ],
+          [
+            -92.288016,
+            34.744462
+          ],
+          [
+            -93.89534,
+            33.687711
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -96.493485,
+            32.786363
+          ]
+        ]
+      },
+      "properties": {
+        "name": "NYC:NY - DFW:TX",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.005973,
+            40.712775
+          ],
+          [
+            -74.128097,
+            40.731073
+          ],
+          [
+            -74.557261,
+            40.572729
+          ],
+          [
+            -74.759717,
+            40.220582
+          ],
+          [
+            -75.165222,
+            39.952584
+          ],
+          [
+            -75.802903,
+            39.842341
+          ],
+          [
+            -76.886701,
+            40.273191
+          ],
+          [
+            -78.247024,
+            40.011007
+          ],
+          [
+            -79.995886,
+            40.440625
+          ],
+          [
+            -82.998794,
+            39.961176
+          ],
+          [
+            -83.673069,
+            39.921095
+          ],
+          [
+            -84.370692,
+            40.154625
+          ],
+          [
+            -85.139351,
+            41.079273
+          ],
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -87.545238,
+            41.682932
+          ]
+        ]
+      },
+      "properties": {
+        "name": "NYC:NY - CHI:IL (S)",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -461,7 +6209,84 @@
       },
       "properties": {
         "name": "DFW:TX - HOU:TX (E)",
-        "type": "Route"
+        "type": "Route",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.796988,
+            32.776664
+          ],
+          [
+            -98.998001,
+            32.698081
+          ],
+          [
+            -100.94596,
+            32.760877
+          ],
+          [
+            -101.855167,
+            33.577863
+          ],
+          [
+            -104.352103,
+            35.229641
+          ],
+          [
+            -105.275131,
+            35.321692
+          ],
+          [
+            -106.650422,
+            35.084386
+          ],
+          [
+            -110.014849,
+            34.640444
+          ],
+          [
+            -112.074037,
+            33.448377
+          ],
+          [
+            -114.225545,
+            33.3617
+          ],
+          [
+            -116.639152,
+            34.212003
+          ],
+          [
+            -117.375494,
+            33.980601
+          ],
+          [
+            -117.55694,
+            33.874605
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DFW:TX - LAX:CA",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -501,7 +6326,14 @@
       },
       "properties": {
         "name": "DFW:TX - HOU:TX (W)",
-        "type": "Route"
+        "type": "Route",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -545,7 +6377,969 @@
       },
       "properties": {
         "name": "NYC:NY - WSH:DC",
-        "type": "Route"
+        "type": "Route",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.796988,
+            32.776664
+          ],
+          [
+            -96.493485,
+            32.786363
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -93.990004,
+            33.113312
+          ],
+          [
+            -93.750179,
+            32.525152
+          ],
+          [
+            -90.18481,
+            32.298757
+          ],
+          [
+            -88.849355,
+            32.343537
+          ],
+          [
+            -88.039891,
+            30.695366
+          ],
+          [
+            -87.245467,
+            31.000294
+          ],
+          [
+            -84.280733,
+            30.438256
+          ],
+          [
+            -83.419997,
+            30.420042
+          ],
+          [
+            -82.74226,
+            30.202064
+          ],
+          [
+            -82.554349,
+            30.026529
+          ],
+          [
+            -82.324826,
+            29.651634
+          ],
+          [
+            -82.457178,
+            27.950575
+          ],
+          [
+            -82.385793,
+            27.951825
+          ],
+          [
+            -81.958934,
+            27.085243
+          ],
+          [
+            -81.949533,
+            26.562854
+          ],
+          [
+            -81.858572,
+            26.518259
+          ],
+          [
+            -81.713089,
+            26.161237
+          ],
+          [
+            -80.438911,
+            26.143572
+          ],
+          [
+            -80.273951,
+            26.014402
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DFW:TX - MIA:FL (W)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.285873,
+            36.850769
+          ],
+          [
+            -76.742355,
+            36.803475
+          ],
+          [
+            -77.421382,
+            37.22776
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Norfolk Spur (EW)",
+        "type": "Spur",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -77.436048,
+            37.540725
+          ],
+          [
+            -77.421382,
+            37.22776
+          ],
+          [
+            -76.742355,
+            36.803475
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Norfolk Spur (WE)",
+        "type": "Spur",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.796988,
+            32.776664
+          ],
+          [
+            -96.493485,
+            32.786363
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -93.990004,
+            33.113312
+          ],
+          [
+            -93.750179,
+            32.525152
+          ],
+          [
+            -90.18481,
+            32.298757
+          ],
+          [
+            -88.849355,
+            32.343537
+          ],
+          [
+            -88.039891,
+            30.695366
+          ],
+          [
+            -87.245467,
+            31.000294
+          ],
+          [
+            -84.280733,
+            30.438256
+          ],
+          [
+            -83.419997,
+            30.420042
+          ],
+          [
+            -82.74226,
+            30.202064
+          ],
+          [
+            -82.476669,
+            30.194389
+          ],
+          [
+            -81.885374,
+            30.356583
+          ],
+          [
+            -81.715566,
+            30.388275
+          ],
+          [
+            -81.655651,
+            30.332184
+          ],
+          [
+            -81.406203,
+            29.893582
+          ],
+          [
+            -81.378927,
+            28.538383
+          ],
+          [
+            -80.358226,
+            27.273049
+          ],
+          [
+            -80.134582,
+            26.803191
+          ],
+          [
+            -80.273951,
+            26.014402
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DFW:TX - MIA:FL (E)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.796988,
+            32.776664
+          ],
+          [
+            -97.516428,
+            35.46756
+          ],
+          [
+            -97.127949,
+            36.046237
+          ],
+          [
+            -97.330053,
+            37.687176
+          ],
+          [
+            -94.578567,
+            39.099727
+          ],
+          [
+            -94.370681,
+            41.142645
+          ],
+          [
+            -93.624959,
+            41.586835
+          ],
+          [
+            -93.369282,
+            41.766815
+          ],
+          [
+            -93.430257,
+            42.853052
+          ],
+          [
+            -93.768606,
+            44.171597
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DFW:TX - MSP:MN",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.161084,
+            32.715738
+          ],
+          [
+            -117.55694,
+            33.874605
+          ]
+        ]
+      },
+      "properties": {
+        "name": "San Diego Spur (SN)",
+        "type": "Spur",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.419416,
+            37.77493
+          ],
+          [
+            -122.223175,
+            37.896083
+          ],
+          [
+            -122.141014,
+            38.217192
+          ],
+          [
+            -121.939371,
+            38.397673
+          ],
+          [
+            -121.587428,
+            38.576206
+          ],
+          [
+            -121.4944,
+            38.581572
+          ],
+          [
+            -119.814269,
+            39.529919
+          ],
+          [
+            -112.307064,
+            40.664439
+          ],
+          [
+            -111.891047,
+            40.760779
+          ],
+          [
+            -110.179697,
+            38.99253
+          ],
+          [
+            -108.550649,
+            39.063871
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SFR:CA - DEN:CO",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.796988,
+            32.776664
+          ],
+          [
+            -96.493485,
+            32.786363
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -93.89534,
+            33.687711
+          ],
+          [
+            -92.288016,
+            34.744462
+          ],
+          [
+            -90.04898,
+            35.149534
+          ],
+          [
+            -89.47194,
+            35.874686
+          ],
+          [
+            -87.350166,
+            36.358808
+          ],
+          [
+            -87.57109,
+            37.971559
+          ],
+          [
+            -85.758456,
+            38.252665
+          ],
+          [
+            -85.289185,
+            38.382446
+          ],
+          [
+            -84.900171,
+            38.624078
+          ],
+          [
+            -84.51202,
+            39.103118
+          ],
+          [
+            -84.310057,
+            39.506091
+          ],
+          [
+            -83.673069,
+            39.921095
+          ],
+          [
+            -82.998794,
+            39.961176
+          ],
+          [
+            -79.995886,
+            40.440625
+          ],
+          [
+            -78.247024,
+            40.011007
+          ],
+          [
+            -76.886701,
+            40.273191
+          ],
+          [
+            -75.802903,
+            39.842341
+          ],
+          [
+            -75.165222,
+            39.952584
+          ],
+          [
+            -74.759717,
+            40.220582
+          ],
+          [
+            -74.557261,
+            40.572729
+          ],
+          [
+            -74.128097,
+            40.731073
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DFW:TX - NYC:NY",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.419416,
+            37.77493
+          ],
+          [
+            -122.405612,
+            37.630041
+          ],
+          [
+            -122.217709,
+            37.437803
+          ],
+          [
+            -121.885253,
+            37.33874
+          ],
+          [
+            -121.543204,
+            37.026638
+          ],
+          [
+            -120.830664,
+            36.970507
+          ],
+          [
+            -119.787125,
+            36.737798
+          ],
+          [
+            -119.018713,
+            35.373292
+          ],
+          [
+            -118.622387,
+            35.031126
+          ],
+          [
+            -116.471349,
+            35.04645
+          ],
+          [
+            -115.139101,
+            36.171563
+          ],
+          [
+            -114.782571,
+            35.989163
+          ],
+          [
+            -111.651302,
+            35.198284
+          ],
+          [
+            -110.014849,
+            34.640444
+          ],
+          [
+            -106.650422,
+            35.084386
+          ],
+          [
+            -105.275131,
+            35.321692
+          ],
+          [
+            -104.352103,
+            35.229641
+          ],
+          [
+            -101.855167,
+            33.577863
+          ],
+          [
+            -100.94596,
+            32.760877
+          ],
+          [
+            -98.998001,
+            32.698081
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SFR:CA - DFW:TX",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.990251,
+            39.739236
+          ],
+          [
+            -102.335558,
+            39.69896
+          ],
+          [
+            -100.760145,
+            41.140276
+          ],
+          [
+            -99.323961,
+            41.586334
+          ],
+          [
+            -95.934503,
+            41.256537
+          ],
+          [
+            -94.370681,
+            41.142645
+          ],
+          [
+            -93.624959,
+            41.586835
+          ],
+          [
+            -93.369282,
+            41.766815
+          ],
+          [
+            -91.509399,
+            41.813544
+          ],
+          [
+            -90.577637,
+            41.523644
+          ],
+          [
+            -90.063373,
+            41.381238
+          ],
+          [
+            -88.77768,
+            41.395735
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DEN:CO - CHI:IL",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.796988,
+            32.776664
+          ],
+          [
+            -97.516428,
+            35.46756
+          ],
+          [
+            -97.127949,
+            36.046237
+          ],
+          [
+            -95.992775,
+            36.153982
+          ],
+          [
+            -93.292299,
+            37.208957
+          ],
+          [
+            -91.673085,
+            38.420506
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DFW:TX - STL:MO (NW)",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.419416,
+            37.77493
+          ],
+          [
+            -122.223175,
+            37.896083
+          ],
+          [
+            -122.141014,
+            38.217192
+          ],
+          [
+            -121.939371,
+            38.397673
+          ],
+          [
+            -121.947729,
+            38.851414
+          ],
+          [
+            -122.391675,
+            40.58654
+          ],
+          [
+            -122.875595,
+            42.326515
+          ],
+          [
+            -123.086754,
+            44.052069
+          ],
+          [
+            -123.035096,
+            44.942898
+          ],
+          [
+            -122.678385,
+            45.515232
+          ],
+          [
+            -122.900695,
+            47.037874
+          ],
+          [
+            -122.59594,
+            47.047995
+          ],
+          [
+            -122.293041,
+            47.314145
+          ],
+          [
+            -122.245211,
+            47.467607
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SFR:CA - SEA:WA",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.796988,
+            32.776664
+          ],
+          [
+            -98.998001,
+            32.698081
+          ],
+          [
+            -100.94596,
+            32.760877
+          ],
+          [
+            -101.855167,
+            33.577863
+          ],
+          [
+            -104.352103,
+            35.229641
+          ],
+          [
+            -105.275131,
+            35.321692
+          ],
+          [
+            -106.650422,
+            35.084386
+          ],
+          [
+            -110.014849,
+            34.640444
+          ],
+          [
+            -111.651302,
+            35.198284
+          ],
+          [
+            -114.782571,
+            35.989163
+          ],
+          [
+            -115.139101,
+            36.171563
+          ],
+          [
+            -116.471349,
+            35.04645
+          ],
+          [
+            -118.622387,
+            35.031126
+          ],
+          [
+            -119.018713,
+            35.373292
+          ],
+          [
+            -119.787125,
+            36.737798
+          ],
+          [
+            -120.830664,
+            36.970507
+          ],
+          [
+            -121.543204,
+            37.026638
+          ],
+          [
+            -121.885253,
+            37.33874
+          ],
+          [
+            -122.217709,
+            37.437803
+          ],
+          [
+            -122.405612,
+            37.630041
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DFW:TX - SFR:CA",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.796988,
+            32.776664
+          ],
+          [
+            -96.493485,
+            32.786363
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -93.89534,
+            33.687711
+          ],
+          [
+            -92.288016,
+            34.744462
+          ],
+          [
+            -90.04898,
+            35.149534
+          ],
+          [
+            -89.47194,
+            35.874686
+          ],
+          [
+            -89.600628,
+            38.034998
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DFW:TX - STL:MO (SE)",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
       }
     },
     {
@@ -593,7 +7387,1329 @@
       },
       "properties": {
         "name": "SFR:CA - LAX:CA",
-        "type": "Route"
+        "type": "Route",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.332071,
+            47.60621
+          ],
+          [
+            -122.245211,
+            47.467607
+          ],
+          [
+            -120.848289,
+            47.157821
+          ],
+          [
+            -117.426047,
+            47.65878
+          ],
+          [
+            -113.994031,
+            46.872128
+          ],
+          [
+            -111.527619,
+            46.343536
+          ],
+          [
+            -108.50069,
+            45.783286
+          ],
+          [
+            -107.624575,
+            45.534259
+          ],
+          [
+            -100.787693,
+            46.805495
+          ],
+          [
+            -96.789803,
+            46.877186
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SEA:WA - MSP:MN (N)",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.990251,
+            39.739236
+          ],
+          [
+            -102.335558,
+            39.69896
+          ],
+          [
+            -97.330053,
+            37.687176
+          ],
+          [
+            -97.127949,
+            36.046237
+          ],
+          [
+            -97.516428,
+            35.46756
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DEN:CO - DFW:TX",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.990251,
+            39.739236
+          ],
+          [
+            -108.550649,
+            39.063871
+          ],
+          [
+            -110.179697,
+            38.99253
+          ],
+          [
+            -113.061893,
+            37.677477
+          ],
+          [
+            -115.139101,
+            36.171563
+          ],
+          [
+            -116.471349,
+            35.04645
+          ],
+          [
+            -116.639152,
+            34.212003
+          ],
+          [
+            -117.375494,
+            33.980601
+          ],
+          [
+            -117.55694,
+            33.874605
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DEN:CO - LAX:CA (NW)",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.332071,
+            47.60621
+          ],
+          [
+            -122.245211,
+            47.467607
+          ],
+          [
+            -120.848289,
+            47.157821
+          ],
+          [
+            -119.119948,
+            46.208668
+          ],
+          [
+            -116.202314,
+            43.615019
+          ],
+          [
+            -112.080869,
+            41.6646
+          ],
+          [
+            -111.891047,
+            40.760779
+          ],
+          [
+            -110.179697,
+            38.99253
+          ],
+          [
+            -108.550649,
+            39.063871
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SEA:WA - DEN:CO (SW)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.990251,
+            39.739236
+          ],
+          [
+            -104.821363,
+            38.833882
+          ],
+          [
+            -104.734972,
+            35.990062
+          ],
+          [
+            -104.352103,
+            35.229641
+          ],
+          [
+            -101.855167,
+            33.577863
+          ],
+          [
+            -100.94596,
+            32.760877
+          ],
+          [
+            -101.036889,
+            31.8875
+          ],
+          [
+            -98.494592,
+            29.425191
+          ],
+          [
+            -98.2559,
+            29.33773
+          ],
+          [
+            -95.701113,
+            29.557536
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DEN:CO - HOU:TX",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.332071,
+            47.60621
+          ],
+          [
+            -122.245211,
+            47.467607
+          ],
+          [
+            -120.848289,
+            47.157821
+          ],
+          [
+            -117.426047,
+            47.65878
+          ],
+          [
+            -113.994031,
+            46.872128
+          ],
+          [
+            -111.527619,
+            46.343536
+          ],
+          [
+            -108.50069,
+            45.783286
+          ],
+          [
+            -107.624575,
+            45.534259
+          ],
+          [
+            -106.707471,
+            44.374767
+          ],
+          [
+            -106.298082,
+            42.848709
+          ],
+          [
+            -105.084423,
+            40.58526
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SEA:WA - DEN:CO (NE)",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.990251,
+            39.739236
+          ],
+          [
+            -102.335558,
+            39.69896
+          ],
+          [
+            -100.760145,
+            41.140276
+          ],
+          [
+            -99.323961,
+            41.586334
+          ],
+          [
+            -97.498867,
+            43.431182
+          ],
+          [
+            -96.731265,
+            43.546022
+          ],
+          [
+            -93.768606,
+            44.171597
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DEN:CO - MSP:MN",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.332071,
+            47.60621
+          ],
+          [
+            -122.245211,
+            47.467607
+          ],
+          [
+            -122.293041,
+            47.314145
+          ],
+          [
+            -122.59594,
+            47.047995
+          ],
+          [
+            -122.900695,
+            47.037874
+          ],
+          [
+            -122.678385,
+            45.515232
+          ],
+          [
+            -123.035096,
+            44.942898
+          ],
+          [
+            -123.086754,
+            44.052069
+          ],
+          [
+            -122.875595,
+            42.326515
+          ],
+          [
+            -122.391675,
+            40.58654
+          ],
+          [
+            -121.947729,
+            38.851414
+          ],
+          [
+            -121.587428,
+            38.576206
+          ],
+          [
+            -121.4944,
+            38.581572
+          ],
+          [
+            -120.997001,
+            37.63926
+          ],
+          [
+            -120.830664,
+            36.970507
+          ],
+          [
+            -119.787125,
+            36.737798
+          ],
+          [
+            -119.018713,
+            35.373292
+          ],
+          [
+            -118.622387,
+            35.031126
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SEA:WA - LAX:CA",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.990251,
+            39.739236
+          ],
+          [
+            -104.821363,
+            38.833882
+          ],
+          [
+            -104.734972,
+            35.990062
+          ],
+          [
+            -105.275131,
+            35.321692
+          ],
+          [
+            -106.650422,
+            35.084386
+          ],
+          [
+            -110.014849,
+            34.640444
+          ],
+          [
+            -112.074037,
+            33.448377
+          ],
+          [
+            -114.225545,
+            33.3617
+          ],
+          [
+            -116.639152,
+            34.212003
+          ],
+          [
+            -117.375494,
+            33.980601
+          ],
+          [
+            -117.55694,
+            33.874605
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DEN:CO - LAX:CA (SE)",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.332071,
+            47.60621
+          ],
+          [
+            -122.245211,
+            47.467607
+          ],
+          [
+            -122.293041,
+            47.314145
+          ],
+          [
+            -122.59594,
+            47.047995
+          ],
+          [
+            -122.900695,
+            47.037874
+          ],
+          [
+            -122.678385,
+            45.515232
+          ],
+          [
+            -123.035096,
+            44.942898
+          ],
+          [
+            -123.086754,
+            44.052069
+          ],
+          [
+            -122.875595,
+            42.326515
+          ],
+          [
+            -122.391675,
+            40.58654
+          ],
+          [
+            -121.947729,
+            38.851414
+          ],
+          [
+            -121.939371,
+            38.397673
+          ],
+          [
+            -122.141014,
+            38.217192
+          ],
+          [
+            -122.223175,
+            37.896083
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SEA:WA - SFR:CA",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.990251,
+            39.739236
+          ],
+          [
+            -108.550649,
+            39.063871
+          ],
+          [
+            -110.179697,
+            38.99253
+          ],
+          [
+            -111.891047,
+            40.760779
+          ],
+          [
+            -112.307064,
+            40.664439
+          ],
+          [
+            -119.814269,
+            39.529919
+          ],
+          [
+            -121.4944,
+            38.581572
+          ],
+          [
+            -121.587428,
+            38.576206
+          ],
+          [
+            -121.939371,
+            38.397673
+          ],
+          [
+            -122.141014,
+            38.217192
+          ],
+          [
+            -122.223175,
+            37.896083
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DEN:CO - SFR:CA",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.332071,
+            47.60621
+          ],
+          [
+            -122.245211,
+            47.467607
+          ],
+          [
+            -120.848289,
+            47.157821
+          ],
+          [
+            -117.426047,
+            47.65878
+          ],
+          [
+            -113.994031,
+            46.872128
+          ],
+          [
+            -111.527619,
+            46.343536
+          ],
+          [
+            -108.50069,
+            45.783286
+          ],
+          [
+            -107.624575,
+            45.534259
+          ],
+          [
+            -106.707471,
+            44.374767
+          ],
+          [
+            -103.231015,
+            44.080543
+          ],
+          [
+            -97.498867,
+            43.431182
+          ],
+          [
+            -96.731265,
+            43.546022
+          ],
+          [
+            -93.768606,
+            44.171597
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SEA:WA - MSP:MN (S)",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -85.587229,
+            42.291707
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Grand Rapids Spur (SN)",
+        "type": "Spur",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.990251,
+            39.739236
+          ],
+          [
+            -108.550649,
+            39.063871
+          ],
+          [
+            -110.179697,
+            38.99253
+          ],
+          [
+            -111.891047,
+            40.760779
+          ],
+          [
+            -112.080869,
+            41.6646
+          ],
+          [
+            -116.202314,
+            43.615019
+          ],
+          [
+            -119.119948,
+            46.208668
+          ],
+          [
+            -120.848289,
+            47.157821
+          ],
+          [
+            -122.245211,
+            47.467607
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DEN:CO - SEA:WA (SW)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.990251,
+            39.739236
+          ],
+          [
+            -105.084423,
+            40.58526
+          ],
+          [
+            -106.298082,
+            42.848709
+          ],
+          [
+            -106.707471,
+            44.374767
+          ],
+          [
+            -107.624575,
+            45.534259
+          ],
+          [
+            -108.50069,
+            45.783286
+          ],
+          [
+            -111.527619,
+            46.343536
+          ],
+          [
+            -113.994031,
+            46.872128
+          ],
+          [
+            -117.426047,
+            47.65878
+          ],
+          [
+            -120.848289,
+            47.157821
+          ],
+          [
+            -122.245211,
+            47.467607
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DEN:CO - SEA:WA (NE)",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.199404,
+            38.627003
+          ],
+          [
+            -89.600628,
+            38.034998
+          ],
+          [
+            -87.57109,
+            37.971559
+          ],
+          [
+            -87.350166,
+            36.358808
+          ],
+          [
+            -86.781602,
+            36.162664
+          ],
+          [
+            -85.333135,
+            35.357503
+          ],
+          [
+            -85.3094,
+            35.045798
+          ]
+        ]
+      },
+      "properties": {
+        "name": "STL:MO - ATL:GA",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.045754,
+            42.331427
+          ],
+          [
+            -83.117341,
+            42.330341
+          ],
+          [
+            -83.500384,
+            41.780132
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Detroit Spur (NS)",
+        "type": "Spur",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.199404,
+            38.627003
+          ],
+          [
+            -90.073293,
+            38.765798
+          ],
+          [
+            -89.772959,
+            39.919934
+          ],
+          [
+            -88.993687,
+            40.484203
+          ],
+          [
+            -88.77768,
+            41.395735
+          ]
+        ]
+      },
+      "properties": {
+        "name": "STL:MO - CHI:IL",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.199404,
+            38.627003
+          ],
+          [
+            -89.600628,
+            38.034998
+          ],
+          [
+            -89.47194,
+            35.874686
+          ],
+          [
+            -90.04898,
+            35.149534
+          ],
+          [
+            -92.288016,
+            34.744462
+          ],
+          [
+            -93.89534,
+            33.687711
+          ],
+          [
+            -94.568397,
+            33.298024
+          ],
+          [
+            -96.019881,
+            33.003287
+          ],
+          [
+            -96.493485,
+            32.786363
+          ]
+        ]
+      },
+      "properties": {
+        "name": "STL:MO - DFW:TX (SE)",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.990251,
+            39.739236
+          ],
+          [
+            -102.335558,
+            39.69896
+          ],
+          [
+            -97.330053,
+            37.687176
+          ],
+          [
+            -94.578567,
+            39.099727
+          ],
+          [
+            -91.673085,
+            38.420506
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DEN:CO - STL:MO",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.199404,
+            38.627003
+          ],
+          [
+            -91.673085,
+            38.420506
+          ],
+          [
+            -93.292299,
+            37.208957
+          ],
+          [
+            -95.992775,
+            36.153982
+          ],
+          [
+            -97.127949,
+            36.046237
+          ],
+          [
+            -97.516428,
+            35.46756
+          ]
+        ]
+      },
+      "properties": {
+        "name": "STL:MO - DFW:TX (NW)",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -85.668086,
+            42.96336
+          ],
+          [
+            -85.587229,
+            42.291707
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Grand Rapids Spur (NS)",
+        "type": "Spur",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.199404,
+            38.627003
+          ],
+          [
+            -91.673085,
+            38.420506
+          ],
+          [
+            -94.578567,
+            39.099727
+          ],
+          [
+            -97.330053,
+            37.687176
+          ],
+          [
+            -102.335558,
+            39.69896
+          ]
+        ]
+      },
+      "properties": {
+        "name": "STL:MO - DEN:CO",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.199404,
+            38.627003
+          ],
+          [
+            -89.600628,
+            38.034998
+          ],
+          [
+            -89.47194,
+            35.874686
+          ],
+          [
+            -90.04898,
+            35.149534
+          ],
+          [
+            -92.288016,
+            34.744462
+          ],
+          [
+            -93.89534,
+            33.687711
+          ],
+          [
+            -93.990004,
+            33.113312
+          ],
+          [
+            -93.750179,
+            32.525152
+          ],
+          [
+            -95.533104,
+            30.735423
+          ]
+        ]
+      },
+      "properties": {
+        "name": "STL:MO - HOU:TX",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.199404,
+            38.627003
+          ],
+          [
+            -89.600628,
+            38.034998
+          ],
+          [
+            -87.57109,
+            37.971559
+          ],
+          [
+            -85.758456,
+            38.252665
+          ],
+          [
+            -85.289185,
+            38.382446
+          ],
+          [
+            -84.792344,
+            38.290711
+          ],
+          [
+            -84.503716,
+            38.040584
+          ],
+          [
+            -83.903432,
+            37.833938
+          ],
+          [
+            -81.632623,
+            38.34982
+          ],
+          [
+            -78.852964,
+            38.439049
+          ],
+          [
+            -77.517112,
+            38.614696
+          ]
+        ]
+      },
+      "properties": {
+        "name": "STL:MO - WSH:DC",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.199404,
+            38.627003
+          ],
+          [
+            -90.073293,
+            38.765798
+          ],
+          [
+            -89.772959,
+            39.919934
+          ],
+          [
+            -90.063373,
+            41.381238
+          ],
+          [
+            -90.577637,
+            41.523644
+          ],
+          [
+            -91.509399,
+            41.813544
+          ],
+          [
+            -92.342578,
+            42.492786
+          ],
+          [
+            -93.430257,
+            42.853052
+          ],
+          [
+            -93.768606,
+            44.171597
+          ]
+        ]
+      },
+      "properties": {
+        "name": "STL:MO - MSP:MN",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
       }
     },
     {
@@ -617,7 +8733,70 @@
       },
       "properties": {
         "name": "HOU:TX - DFW:TX (E)",
-        "type": "Route"
+        "type": "Route",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.369803,
+            29.760427
+          ],
+          [
+            -94.126556,
+            30.080174
+          ],
+          [
+            -91.187147,
+            30.451468
+          ],
+          [
+            -90.350517,
+            30.006419
+          ],
+          [
+            -90.071532,
+            29.951066
+          ],
+          [
+            -89.724244,
+            30.296316
+          ],
+          [
+            -88.039891,
+            30.695366
+          ],
+          [
+            -87.245467,
+            31.000294
+          ],
+          [
+            -86.307737,
+            32.379223
+          ],
+          [
+            -85.487017,
+            33.366378
+          ]
+        ]
+      },
+      "properties": {
+        "name": "HOU:TX - ATL:GA",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
       }
     },
     {
@@ -657,7 +8836,1422 @@
       },
       "properties": {
         "name": "HOU:TX - DFW:TX (W)",
-        "type": "Route"
+        "type": "Route",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.537867,
+            41.652805
+          ],
+          [
+            -83.500384,
+            41.780132
+          ],
+          [
+            -83.117341,
+            42.330341
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Detroit Spur (SN)",
+        "type": "Spur",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.369803,
+            29.760427
+          ],
+          [
+            -95.533104,
+            30.735423
+          ],
+          [
+            -93.750179,
+            32.525152
+          ],
+          [
+            -90.18481,
+            32.298757
+          ],
+          [
+            -88.849355,
+            32.343537
+          ],
+          [
+            -88.025812,
+            33.563202
+          ],
+          [
+            -86.810357,
+            33.518589
+          ],
+          [
+            -85.487017,
+            33.366378
+          ]
+        ]
+      },
+      "properties": {
+        "name": "HOU:TX - ATL:GA (Temp)",
+        "type": "Route",
+        "phases": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.369803,
+            29.760427
+          ],
+          [
+            -95.701113,
+            29.557536
+          ],
+          [
+            -98.2559,
+            29.33773
+          ],
+          [
+            -98.494592,
+            29.425191
+          ],
+          [
+            -101.036889,
+            31.8875
+          ],
+          [
+            -100.94596,
+            32.760877
+          ],
+          [
+            -101.855167,
+            33.577863
+          ],
+          [
+            -104.352103,
+            35.229641
+          ],
+          [
+            -104.734972,
+            35.990062
+          ],
+          [
+            -104.821363,
+            38.833882
+          ]
+        ]
+      },
+      "properties": {
+        "name": "HOU:TX - DEN:CO",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.369803,
+            29.760427
+          ],
+          [
+            -94.126556,
+            30.080174
+          ],
+          [
+            -91.187147,
+            30.451468
+          ],
+          [
+            -90.350517,
+            30.006419
+          ],
+          [
+            -90.071532,
+            29.951066
+          ],
+          [
+            -89.724244,
+            30.296316
+          ],
+          [
+            -88.039891,
+            30.695366
+          ],
+          [
+            -87.245467,
+            31.000294
+          ],
+          [
+            -84.280733,
+            30.438256
+          ],
+          [
+            -83.419997,
+            30.420042
+          ],
+          [
+            -82.74226,
+            30.202064
+          ],
+          [
+            -82.476669,
+            30.194389
+          ],
+          [
+            -81.885374,
+            30.356583
+          ],
+          [
+            -81.715566,
+            30.388275
+          ],
+          [
+            -81.655651,
+            30.332184
+          ],
+          [
+            -81.406203,
+            29.893582
+          ],
+          [
+            -81.378927,
+            28.538383
+          ],
+          [
+            -80.358226,
+            27.273049
+          ],
+          [
+            -80.134582,
+            26.803191
+          ],
+          [
+            -80.273951,
+            26.014402
+          ]
+        ]
+      },
+      "properties": {
+        "name": "HOU:TX - MIA:FL (E)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.369803,
+            29.760427
+          ],
+          [
+            -95.701113,
+            29.557536
+          ],
+          [
+            -98.2559,
+            29.33773
+          ],
+          [
+            -98.494592,
+            29.425191
+          ],
+          [
+            -101.036889,
+            31.8875
+          ],
+          [
+            -102.077915,
+            31.997346
+          ],
+          [
+            -106.388168,
+            31.791298
+          ],
+          [
+            -106.485022,
+            31.761878
+          ],
+          [
+            -106.544845,
+            31.809138
+          ],
+          [
+            -110.974177,
+            32.253979
+          ],
+          [
+            -112.074037,
+            33.448377
+          ],
+          [
+            -114.225545,
+            33.3617
+          ],
+          [
+            -116.639152,
+            34.212003
+          ],
+          [
+            -117.375494,
+            33.980601
+          ],
+          [
+            -117.55694,
+            33.874605
+          ]
+        ]
+      },
+      "properties": {
+        "name": "HOU:TX - LAX:CA",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.369803,
+            29.760427
+          ],
+          [
+            -94.126556,
+            30.080174
+          ],
+          [
+            -91.187147,
+            30.451468
+          ],
+          [
+            -90.350517,
+            30.006419
+          ],
+          [
+            -90.071532,
+            29.951066
+          ],
+          [
+            -89.724244,
+            30.296316
+          ],
+          [
+            -88.039891,
+            30.695366
+          ],
+          [
+            -87.245467,
+            31.000294
+          ],
+          [
+            -84.280733,
+            30.438256
+          ],
+          [
+            -83.419997,
+            30.420042
+          ],
+          [
+            -82.74226,
+            30.202064
+          ],
+          [
+            -82.554349,
+            30.026529
+          ],
+          [
+            -82.324826,
+            29.651634
+          ],
+          [
+            -82.457178,
+            27.950575
+          ],
+          [
+            -82.385793,
+            27.951825
+          ],
+          [
+            -81.958934,
+            27.085243
+          ],
+          [
+            -81.949533,
+            26.562854
+          ],
+          [
+            -81.858572,
+            26.518259
+          ],
+          [
+            -81.713089,
+            26.161237
+          ],
+          [
+            -80.438911,
+            26.143572
+          ],
+          [
+            -80.273951,
+            26.014402
+          ]
+        ]
+      },
+      "properties": {
+        "name": "HOU:TX - MIA:FL (W)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.369803,
+            29.760427
+          ],
+          [
+            -95.533104,
+            30.735423
+          ],
+          [
+            -93.750179,
+            32.525152
+          ],
+          [
+            -93.990004,
+            33.113312
+          ],
+          [
+            -93.89534,
+            33.687711
+          ],
+          [
+            -92.288016,
+            34.744462
+          ],
+          [
+            -90.04898,
+            35.149534
+          ],
+          [
+            -89.47194,
+            35.874686
+          ],
+          [
+            -89.600628,
+            38.034998
+          ]
+        ]
+      },
+      "properties": {
+        "name": "HOU:TX - STL:MO",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.387684,
+            33.748752
+          ],
+          [
+            -85.3094,
+            35.045798
+          ],
+          [
+            -85.333135,
+            35.357503
+          ],
+          [
+            -83.920739,
+            35.960638
+          ],
+          [
+            -83.628711,
+            36.324591
+          ],
+          [
+            -83.903432,
+            37.833938
+          ],
+          [
+            -84.503716,
+            38.040584
+          ],
+          [
+            -84.792344,
+            38.290711
+          ],
+          [
+            -84.900171,
+            38.624078
+          ],
+          [
+            -84.51202,
+            39.103118
+          ],
+          [
+            -84.310057,
+            39.506091
+          ],
+          [
+            -84.370692,
+            40.154625
+          ],
+          [
+            -85.139351,
+            41.079273
+          ],
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -87.545238,
+            41.682932
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ATL:GA - CHI:IL (E)",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.243685,
+            34.052234
+          ],
+          [
+            -117.55694,
+            33.874605
+          ],
+          [
+            -117.375494,
+            33.980601
+          ],
+          [
+            -116.639152,
+            34.212003
+          ],
+          [
+            -114.225545,
+            33.3617
+          ],
+          [
+            -112.074037,
+            33.448377
+          ],
+          [
+            -110.014849,
+            34.640444
+          ],
+          [
+            -106.650422,
+            35.084386
+          ],
+          [
+            -105.275131,
+            35.321692
+          ],
+          [
+            -104.352103,
+            35.229641
+          ],
+          [
+            -101.855167,
+            33.577863
+          ],
+          [
+            -100.94596,
+            32.760877
+          ],
+          [
+            -98.998001,
+            32.698081
+          ]
+        ]
+      },
+      "properties": {
+        "name": "LAX:CA - DFW:TX",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -77.036871,
+            38.907192
+          ],
+          [
+            -77.517112,
+            38.614696
+          ],
+          [
+            -77.436048,
+            37.540725
+          ],
+          [
+            -77.421382,
+            37.22776
+          ],
+          [
+            -78.638179,
+            35.77959
+          ],
+          [
+            -79.791975,
+            36.072635
+          ],
+          [
+            -80.843127,
+            35.227087
+          ],
+          [
+            -81.26329,
+            34.85321
+          ],
+          [
+            -82.39401,
+            34.852618
+          ],
+          [
+            -83.405239,
+            33.877163
+          ]
+        ]
+      },
+      "properties": {
+        "name": "WSH:DC - ATL:GA (SE)",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.243685,
+            34.052234
+          ],
+          [
+            -117.55694,
+            33.874605
+          ],
+          [
+            -117.375494,
+            33.980601
+          ],
+          [
+            -116.639152,
+            34.212003
+          ],
+          [
+            -116.471349,
+            35.04645
+          ],
+          [
+            -115.139101,
+            36.171563
+          ],
+          [
+            -113.061893,
+            37.677477
+          ],
+          [
+            -110.179697,
+            38.99253
+          ],
+          [
+            -108.550649,
+            39.063871
+          ]
+        ]
+      },
+      "properties": {
+        "name": "LAX:CA - DEN:CO (NW)",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.243685,
+            34.052234
+          ],
+          [
+            -117.55694,
+            33.874605
+          ],
+          [
+            -117.375494,
+            33.980601
+          ],
+          [
+            -116.639152,
+            34.212003
+          ],
+          [
+            -114.225545,
+            33.3617
+          ],
+          [
+            -112.074037,
+            33.448377
+          ],
+          [
+            -110.974177,
+            32.253979
+          ],
+          [
+            -106.544845,
+            31.809138
+          ],
+          [
+            -106.485022,
+            31.761878
+          ],
+          [
+            -106.388168,
+            31.791298
+          ],
+          [
+            -102.077915,
+            31.997346
+          ],
+          [
+            -101.036889,
+            31.8875
+          ],
+          [
+            -98.494592,
+            29.425191
+          ],
+          [
+            -98.2559,
+            29.33773
+          ],
+          [
+            -95.701113,
+            29.557536
+          ]
+        ]
+      },
+      "properties": {
+        "name": "LAX:CA - HOU:TX",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.243685,
+            34.052234
+          ],
+          [
+            -117.55694,
+            33.874605
+          ],
+          [
+            -117.375494,
+            33.980601
+          ],
+          [
+            -116.639152,
+            34.212003
+          ],
+          [
+            -114.225545,
+            33.3617
+          ],
+          [
+            -112.074037,
+            33.448377
+          ],
+          [
+            -110.014849,
+            34.640444
+          ],
+          [
+            -106.650422,
+            35.084386
+          ],
+          [
+            -105.275131,
+            35.321692
+          ],
+          [
+            -104.734972,
+            35.990062
+          ],
+          [
+            -104.821363,
+            38.833882
+          ]
+        ]
+      },
+      "properties": {
+        "name": "LAX:CA - DEN:CO (SE)",
+        "type": "Route",
+        "phases": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.243685,
+            34.052234
+          ],
+          [
+            -117.55694,
+            33.874605
+          ]
+        ]
+      },
+      "properties": {
+        "name": "San Diego Spur (NS)",
+        "type": "Spur",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -77.036871,
+            38.907192
+          ],
+          [
+            -77.517112,
+            38.614696
+          ],
+          [
+            -78.852964,
+            38.439049
+          ],
+          [
+            -79.941427,
+            37.27097
+          ],
+          [
+            -82.561819,
+            36.548434
+          ],
+          [
+            -83.628711,
+            36.324591
+          ],
+          [
+            -83.920739,
+            35.960638
+          ],
+          [
+            -85.333135,
+            35.357503
+          ],
+          [
+            -85.3094,
+            35.045798
+          ]
+        ]
+      },
+      "properties": {
+        "name": "WSH:DC - ATL:GA (NW)",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -77.036871,
+            38.907192
+          ],
+          [
+            -77.517112,
+            38.614696
+          ],
+          [
+            -77.436048,
+            37.540725
+          ],
+          [
+            -77.421382,
+            37.22776
+          ],
+          [
+            -78.638179,
+            35.77959
+          ],
+          [
+            -79.791975,
+            36.072635
+          ],
+          [
+            -80.843127,
+            35.227087
+          ],
+          [
+            -81.26329,
+            34.85321
+          ],
+          [
+            -81.034814,
+            34.00071
+          ],
+          [
+            -81.306673,
+            32.879521
+          ],
+          [
+            -81.088739,
+            32.447844
+          ],
+          [
+            -81.091203,
+            32.080899
+          ],
+          [
+            -81.398009,
+            31.764291
+          ],
+          [
+            -81.72006,
+            31.005937
+          ],
+          [
+            -81.767394,
+            30.581616
+          ],
+          [
+            -81.715566,
+            30.388275
+          ],
+          [
+            -81.655651,
+            30.332184
+          ],
+          [
+            -81.406203,
+            29.893582
+          ],
+          [
+            -81.378927,
+            28.538383
+          ],
+          [
+            -80.358226,
+            27.273049
+          ],
+          [
+            -80.134582,
+            26.803191
+          ],
+          [
+            -80.273951,
+            26.014402
+          ]
+        ]
+      },
+      "properties": {
+        "name": "WSH:DC - MIA:FL (Temp)",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -77.036871,
+            38.907192
+          ],
+          [
+            -77.517112,
+            38.614696
+          ],
+          [
+            -77.436048,
+            37.540725
+          ],
+          [
+            -77.421382,
+            37.22776
+          ],
+          [
+            -78.638179,
+            35.77959
+          ],
+          [
+            -77.886812,
+            34.210389
+          ],
+          [
+            -78.767313,
+            33.801373
+          ],
+          [
+            -78.886694,
+            33.68906
+          ],
+          [
+            -79.293494,
+            33.415161
+          ],
+          [
+            -79.931051,
+            32.776475
+          ],
+          [
+            -80.634214,
+            32.721641
+          ],
+          [
+            -81.088739,
+            32.447844
+          ],
+          [
+            -81.091203,
+            32.080899
+          ],
+          [
+            -81.398009,
+            31.764291
+          ],
+          [
+            -81.72006,
+            31.005937
+          ],
+          [
+            -81.767394,
+            30.581616
+          ],
+          [
+            -81.715566,
+            30.388275
+          ],
+          [
+            -81.655651,
+            30.332184
+          ],
+          [
+            -81.406203,
+            29.893582
+          ],
+          [
+            -81.378927,
+            28.538383
+          ],
+          [
+            -80.358226,
+            27.273049
+          ],
+          [
+            -80.134582,
+            26.803191
+          ],
+          [
+            -80.273951,
+            26.014402
+          ]
+        ]
+      },
+      "properties": {
+        "name": "WSH:DC - MIA:FL (E)",
+        "type": "Route",
+        "phases": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -77.036871,
+            38.907192
+          ],
+          [
+            -77.047052,
+            39.094018
+          ],
+          [
+            -77.719993,
+            39.641763
+          ],
+          [
+            -78.247024,
+            40.011007
+          ],
+          [
+            -79.995886,
+            40.440625
+          ],
+          [
+            -82.998794,
+            39.961176
+          ],
+          [
+            -83.673069,
+            39.921095
+          ],
+          [
+            -84.370692,
+            40.154625
+          ],
+          [
+            -85.139351,
+            41.079273
+          ],
+          [
+            -86.25199,
+            41.676355
+          ],
+          [
+            -87.24203,
+            41.520239
+          ],
+          [
+            -87.545238,
+            41.682932
+          ]
+        ]
+      },
+      "properties": {
+        "name": "WSH:DC - CHI:IL",
+        "type": "Route",
+        "phases": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.243685,
+            34.052234
+          ],
+          [
+            -118.622387,
+            35.031126
+          ],
+          [
+            -119.018713,
+            35.373292
+          ],
+          [
+            -119.787125,
+            36.737798
+          ],
+          [
+            -120.830664,
+            36.970507
+          ],
+          [
+            -121.543204,
+            37.026638
+          ],
+          [
+            -121.885253,
+            37.33874
+          ],
+          [
+            -122.217709,
+            37.437803
+          ],
+          [
+            -122.405612,
+            37.630041
+          ]
+        ]
+      },
+      "properties": {
+        "name": "LAX:CA - SFR:CA",
+        "type": "Route",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.243685,
+            34.052234
+          ],
+          [
+            -118.622387,
+            35.031126
+          ],
+          [
+            -119.018713,
+            35.373292
+          ],
+          [
+            -119.787125,
+            36.737798
+          ],
+          [
+            -120.830664,
+            36.970507
+          ],
+          [
+            -120.997001,
+            37.63926
+          ],
+          [
+            -121.4944,
+            38.581572
+          ],
+          [
+            -121.587428,
+            38.576206
+          ],
+          [
+            -121.947729,
+            38.851414
+          ],
+          [
+            -122.391675,
+            40.58654
+          ],
+          [
+            -122.875595,
+            42.326515
+          ],
+          [
+            -123.086754,
+            44.052069
+          ],
+          [
+            -123.035096,
+            44.942898
+          ],
+          [
+            -122.678385,
+            45.515232
+          ],
+          [
+            -122.900695,
+            47.037874
+          ],
+          [
+            -122.59594,
+            47.047995
+          ],
+          [
+            -122.293041,
+            47.314145
+          ],
+          [
+            -122.245211,
+            47.467607
+          ]
+        ]
+      },
+      "properties": {
+        "name": "LAX:CA - SEA:WA",
+        "type": "Route",
+        "phases": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -77.036871,
+            38.907192
+          ],
+          [
+            -77.047052,
+            39.094018
+          ],
+          [
+            -76.612189,
+            39.290385
+          ],
+          [
+            -75.802903,
+            39.842341
+          ],
+          [
+            -75.165222,
+            39.952584
+          ],
+          [
+            -74.759717,
+            40.220582
+          ],
+          [
+            -74.557261,
+            40.572729
+          ],
+          [
+            -74.128097,
+            40.731073
+          ]
+        ]
+      },
+      "properties": {
+        "name": "WSH:DC - NYC:NY",
+        "type": "Route",
+        "phases": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
       }
     }
   ]
