@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "name": "New York NY",
+        "description": "New York NY",
         "type": "Terminal",
         "id": "NewYork:NY:US",
         "phases": [
@@ -33,7 +33,7 @@
         ]
       },
       "properties": {
-        "name": "Los Angeles CA",
+        "description": "Los Angeles CA",
         "type": "Terminal",
         "id": "LosAngeles:CA:US",
         "phases": [
@@ -55,7 +55,7 @@
         ]
       },
       "properties": {
-        "name": "Chicago IL",
+        "description": "Chicago IL",
         "type": "Terminal",
         "id": "Chicago:IL:US",
         "phases": [
@@ -76,7 +76,7 @@
         ]
       },
       "properties": {
-        "name": "Dallas TX",
+        "description": "Dallas TX",
         "type": "Terminal",
         "id": "Dallas:TX:US",
         "phases": [
@@ -98,7 +98,7 @@
         ]
       },
       "properties": {
-        "name": "Houston TX",
+        "description": "Houston TX",
         "type": "Terminal",
         "id": "Houston:TX:US",
         "phases": [
@@ -120,7 +120,7 @@
         ]
       },
       "properties": {
-        "name": "Atlanta GA",
+        "description": "Atlanta GA",
         "type": "Terminal",
         "id": "Atlanta:GA:US",
         "phases": [
@@ -141,7 +141,7 @@
         ]
       },
       "properties": {
-        "name": "Riverside CA",
+        "description": "Riverside CA",
         "type": "Station",
         "id": "Riverside:CA:US",
         "phases": [
@@ -162,7 +162,7 @@
         ]
       },
       "properties": {
-        "name": "Washington DC",
+        "description": "Washington DC",
         "type": "Terminal",
         "id": "Washington:DC:US",
         "phases": [
@@ -184,7 +184,7 @@
         ]
       },
       "properties": {
-        "name": "Philadelphia PA",
+        "description": "Philadelphia PA",
         "type": "Station",
         "id": "Philadelphia:PA:US",
         "phases": [
@@ -206,7 +206,7 @@
         ]
       },
       "properties": {
-        "name": "Phoenix AZ",
+        "description": "Phoenix AZ",
         "type": "Station",
         "id": "Phoenix:AZ:US",
         "phases": [
@@ -227,7 +227,7 @@
         ]
       },
       "properties": {
-        "name": "Miami FL",
+        "description": "Miami FL",
         "type": "Terminal",
         "id": "Miami:FL:US",
         "phases": [
@@ -248,7 +248,7 @@
         ]
       },
       "properties": {
-        "name": "Boston MA",
+        "description": "Boston MA",
         "type": "Terminal",
         "id": "Boston:MA:US",
         "phases": [
@@ -270,7 +270,7 @@
         ]
       },
       "properties": {
-        "name": "Detroit MI",
+        "description": "Detroit MI",
         "type": "Station",
         "id": "Detroit:MI:US",
         "phases": [
@@ -290,7 +290,7 @@
         ]
       },
       "properties": {
-        "name": "San Francisco CA",
+        "description": "San Francisco CA",
         "type": "Terminal",
         "id": "SanFrancisco:CA:US",
         "phases": [
@@ -312,7 +312,7 @@
         ]
       },
       "properties": {
-        "name": "Tampa FL",
+        "description": "Tampa FL",
         "type": "Station",
         "id": "Tampa:FL:US",
         "phases": [
@@ -332,7 +332,7 @@
         ]
       },
       "properties": {
-        "name": "Orlando FL",
+        "description": "Orlando FL",
         "type": "Station",
         "id": "Orlando:FL:US",
         "phases": [
@@ -353,7 +353,7 @@
         ]
       },
       "properties": {
-        "name": "Minneapolis MN",
+        "description": "Minneapolis MN",
         "type": "Terminal",
         "id": "Minneapolis:MN:US",
         "phases": [
@@ -373,7 +373,7 @@
         ]
       },
       "properties": {
-        "name": "Denver CO",
+        "description": "Denver CO",
         "type": "Terminal",
         "id": "Denver:CO:US",
         "phases": [
@@ -394,7 +394,7 @@
         ]
       },
       "properties": {
-        "name": "Seattle WA",
+        "description": "Seattle WA",
         "type": "Terminal",
         "id": "Seattle:WA:US",
         "phases": [
@@ -414,7 +414,7 @@
         ]
       },
       "properties": {
-        "name": "Charlotte NC",
+        "description": "Charlotte NC",
         "type": "Station",
         "id": "Charlotte:NC:US",
         "phases": [
@@ -435,7 +435,7 @@
         ]
       },
       "properties": {
-        "name": "Cleveland OH",
+        "description": "Cleveland OH",
         "type": "Station",
         "id": "Cleveland:OH:US",
         "phases": [
@@ -455,7 +455,7 @@
         ]
       },
       "properties": {
-        "name": "San Jose CA",
+        "description": "San Jose CA",
         "type": "Station",
         "id": "SanJose:CA:US",
         "phases": [
@@ -477,7 +477,7 @@
         ]
       },
       "properties": {
-        "name": "Sacramento CA",
+        "description": "Sacramento CA",
         "type": "Station",
         "id": "Sacramento:CA:US",
         "phases": [
@@ -497,7 +497,7 @@
         ]
       },
       "properties": {
-        "name": "Baltimore MD",
+        "description": "Baltimore MD",
         "type": "Station",
         "id": "Baltimore:MD:US",
         "phases": [
@@ -519,7 +519,7 @@
         ]
       },
       "properties": {
-        "name": "San Diego CA",
+        "description": "San Diego CA",
         "type": "Station",
         "id": "SanDiego:CA:US",
         "phases": [
@@ -540,7 +540,7 @@
         ]
       },
       "properties": {
-        "name": "St Louis MO",
+        "description": "St Louis MO",
         "type": "Terminal",
         "id": "StLouis:MO:US",
         "phases": [
@@ -561,7 +561,7 @@
         ]
       },
       "properties": {
-        "name": "Raleigh NC",
+        "description": "Raleigh NC",
         "type": "Station",
         "id": "Raleigh:NC:US",
         "phases": [
@@ -582,7 +582,7 @@
         ]
       },
       "properties": {
-        "name": "Cincinnati OH",
+        "description": "Cincinnati OH",
         "type": "Station",
         "id": "Cincinnati:OH:US",
         "phases": [
@@ -603,7 +603,7 @@
         ]
       },
       "properties": {
-        "name": "Trenton NJ",
+        "description": "Trenton NJ",
         "type": "Station",
         "id": "Trenton:NJ:US",
         "phases": [
@@ -625,7 +625,7 @@
         ]
       },
       "properties": {
-        "name": "Las Vegas NV",
+        "description": "Las Vegas NV",
         "type": "Station",
         "id": "LasVegas:NV:US",
         "phases": [
@@ -646,7 +646,7 @@
         ]
       },
       "properties": {
-        "name": "Pittsburgh PA",
+        "description": "Pittsburgh PA",
         "type": "Station",
         "id": "Pittsburgh:PA:US",
         "phases": [
@@ -667,7 +667,7 @@
         ]
       },
       "properties": {
-        "name": "Indianapolis IN",
+        "description": "Indianapolis IN",
         "type": "Station",
         "id": "Indianapolis:IN:US",
         "phases": [
@@ -687,7 +687,7 @@
         ]
       },
       "properties": {
-        "name": "Salt Lake City UT",
+        "description": "Salt Lake City UT",
         "type": "Station",
         "id": "SaltLakeCity:UT:US",
         "phases": [
@@ -707,7 +707,7 @@
         ]
       },
       "properties": {
-        "name": "Hartford CT",
+        "description": "Hartford CT",
         "type": "Station",
         "id": "Hartford:CT:US",
         "phases": [
@@ -729,7 +729,7 @@
         ]
       },
       "properties": {
-        "name": "San Antonio TX",
+        "description": "San Antonio TX",
         "type": "Station",
         "id": "SanAntonio:TX:US",
         "phases": [
@@ -751,7 +751,7 @@
         ]
       },
       "properties": {
-        "name": "Columbus OH",
+        "description": "Columbus OH",
         "type": "Station",
         "id": "Columbus:OH:US",
         "phases": [
@@ -772,7 +772,7 @@
         ]
       },
       "properties": {
-        "name": "Portland OR",
+        "description": "Portland OR",
         "type": "Station",
         "id": "Portland:OR:US",
         "phases": [
@@ -792,7 +792,7 @@
         ]
       },
       "properties": {
-        "name": "El Paso TX",
+        "description": "El Paso TX",
         "type": "Station",
         "id": "ElPaso:TX:US",
         "phases": [
@@ -811,7 +811,7 @@
         ]
       },
       "properties": {
-        "name": "Providence RI",
+        "description": "Providence RI",
         "type": "Station",
         "id": "Providence:RI:US",
         "phases": [
@@ -833,7 +833,7 @@
         ]
       },
       "properties": {
-        "name": "Austin TX",
+        "description": "Austin TX",
         "type": "Station",
         "id": "Austin:TX:US",
         "phases": [
@@ -855,7 +855,7 @@
         ]
       },
       "properties": {
-        "name": "Kansas City MO",
+        "description": "Kansas City MO",
         "type": "Station",
         "id": "KansasCity:MO:US",
         "phases": [
@@ -875,7 +875,7 @@
         ]
       },
       "properties": {
-        "name": "Nashville TN",
+        "description": "Nashville TN",
         "type": "Station",
         "id": "Nashville:TN:US",
         "phases": [
@@ -896,7 +896,7 @@
         ]
       },
       "properties": {
-        "name": "Milwaukee WI",
+        "description": "Milwaukee WI",
         "type": "Station",
         "id": "Milwaukee:WI:US",
         "phases": [
@@ -916,7 +916,7 @@
         ]
       },
       "properties": {
-        "name": "Bridgeport CT",
+        "description": "Bridgeport CT",
         "type": "Station",
         "id": "Bridgeport:CT:US",
         "phases": [
@@ -938,7 +938,7 @@
         ]
       },
       "properties": {
-        "name": "Allentown PA",
+        "description": "Allentown PA",
         "type": "Station",
         "id": "Allentown:PA:US",
         "phases": [
@@ -957,7 +957,7 @@
         ]
       },
       "properties": {
-        "name": "Harrisburg PA",
+        "description": "Harrisburg PA",
         "type": "Station",
         "id": "Harrisburg:PA:US",
         "phases": [
@@ -978,7 +978,7 @@
         ]
       },
       "properties": {
-        "name": "Greensboro NC",
+        "description": "Greensboro NC",
         "type": "Station",
         "id": "Greensboro:NC:US",
         "phases": [
@@ -999,7 +999,7 @@
         ]
       },
       "properties": {
-        "name": "Norfolk VA",
+        "description": "Norfolk VA",
         "type": "Station",
         "id": "Norfolk:VA:US",
         "phases": [
@@ -1018,7 +1018,7 @@
         ]
       },
       "properties": {
-        "name": "Greenville SC",
+        "description": "Greenville SC",
         "type": "Station",
         "id": "Greenville:SC:US",
         "phases": [
@@ -1039,7 +1039,7 @@
         ]
       },
       "properties": {
-        "name": "Fresno CA",
+        "description": "Fresno CA",
         "type": "Station",
         "id": "Fresno:CA:US",
         "phases": [
@@ -1061,7 +1061,7 @@
         ]
       },
       "properties": {
-        "name": "Modesto CA",
+        "description": "Modesto CA",
         "type": "Station",
         "id": "Modesto:CA:US",
         "phases": [
@@ -1081,7 +1081,7 @@
         ]
       },
       "properties": {
-        "name": "Cape Coral FL",
+        "description": "Cape Coral FL",
         "type": "Station",
         "id": "CapeCoral:FL:US",
         "phases": [
@@ -1101,7 +1101,7 @@
         ]
       },
       "properties": {
-        "name": "Jacksonville FL",
+        "description": "Jacksonville FL",
         "type": "Station",
         "id": "Jacksonville:FL:US",
         "phases": [
@@ -1122,7 +1122,7 @@
         ]
       },
       "properties": {
-        "name": "Louisville KY",
+        "description": "Louisville KY",
         "type": "Station",
         "id": "Louisville:KY:US",
         "phases": [
@@ -1143,7 +1143,7 @@
         ]
       },
       "properties": {
-        "name": "Port St Lucie FL",
+        "description": "Port St Lucie FL",
         "type": "Station",
         "id": "PortStLucie:FL:US",
         "phases": [
@@ -1164,7 +1164,7 @@
         ]
       },
       "properties": {
-        "name": "Buffalo NY",
+        "description": "Buffalo NY",
         "type": "Station",
         "id": "Buffalo:NY:US",
         "phases": [
@@ -1184,7 +1184,7 @@
         ]
       },
       "properties": {
-        "name": "Richmond VA",
+        "description": "Richmond VA",
         "type": "Station",
         "id": "Richmond:VA:US",
         "phases": [
@@ -1205,7 +1205,7 @@
         ]
       },
       "properties": {
-        "name": "Memphis TN",
+        "description": "Memphis TN",
         "type": "Station",
         "id": "Memphis:TN:US",
         "phases": [
@@ -1226,7 +1226,7 @@
         ]
       },
       "properties": {
-        "name": "Oklahoma City OK",
+        "description": "Oklahoma City OK",
         "type": "Station",
         "id": "OklahomaCity:OK:US",
         "phases": [
@@ -1246,7 +1246,7 @@
         ]
       },
       "properties": {
-        "name": "Birmingham AL",
+        "description": "Birmingham AL",
         "type": "Station",
         "id": "Birmingham:AL:US",
         "phases": [
@@ -1266,7 +1266,7 @@
         ]
       },
       "properties": {
-        "name": "Albany NY",
+        "description": "Albany NY",
         "type": "Station",
         "id": "Albany:NY:US",
         "phases": [
@@ -1286,7 +1286,7 @@
         ]
       },
       "properties": {
-        "name": "Grand Rapids MI",
+        "description": "Grand Rapids MI",
         "type": "Station",
         "id": "GrandRapids:MI:US",
         "phases": [
@@ -1305,7 +1305,7 @@
         ]
       },
       "properties": {
-        "name": "Olympia WA",
+        "description": "Olympia WA",
         "type": "Station",
         "id": "Olympia:WA:US",
         "phases": [
@@ -1325,7 +1325,7 @@
         ]
       },
       "properties": {
-        "name": "New Orleans LA",
+        "description": "New Orleans LA",
         "type": "Station",
         "id": "NewOrleans:LA:US",
         "phases": [
@@ -1345,7 +1345,7 @@
         ]
       },
       "properties": {
-        "name": "Knoxville TN",
+        "description": "Knoxville TN",
         "type": "Station",
         "id": "Knoxville:TN:US",
         "phases": [
@@ -1365,7 +1365,7 @@
         ]
       },
       "properties": {
-        "name": "Columbia SC",
+        "description": "Columbia SC",
         "type": "Station",
         "id": "Columbia:SC:US",
         "phases": [
@@ -1386,7 +1386,7 @@
         ]
       },
       "properties": {
-        "name": "Chattanooga TN",
+        "description": "Chattanooga TN",
         "type": "Station",
         "id": "Chattanooga:TN:US",
         "phases": [
@@ -1407,7 +1407,7 @@
         ]
       },
       "properties": {
-        "name": "Tucson AZ",
+        "description": "Tucson AZ",
         "type": "Station",
         "id": "Tucson:AZ:US",
         "phases": [
@@ -1426,7 +1426,7 @@
         ]
       },
       "properties": {
-        "name": "Tulsa OK",
+        "description": "Tulsa OK",
         "type": "Station",
         "id": "Tulsa:OK:US",
         "phases": [
@@ -1445,7 +1445,7 @@
         ]
       },
       "properties": {
-        "name": "Omaha NE",
+        "description": "Omaha NE",
         "type": "Station",
         "id": "Omaha:NE:US",
         "phases": [
@@ -1466,7 +1466,7 @@
         ]
       },
       "properties": {
-        "name": "Syracuse NY",
+        "description": "Syracuse NY",
         "type": "Station",
         "id": "Syracuse:NY:US",
         "phases": [
@@ -1486,7 +1486,7 @@
         ]
       },
       "properties": {
-        "name": "Toledo OH",
+        "description": "Toledo OH",
         "type": "Station",
         "id": "Toledo:OH:US",
         "phases": [
@@ -1506,7 +1506,7 @@
         ]
       },
       "properties": {
-        "name": "Hagerstown MD",
+        "description": "Hagerstown MD",
         "type": "Station",
         "id": "Hagerstown:MD:US",
         "phases": [
@@ -1527,7 +1527,7 @@
         ]
       },
       "properties": {
-        "name": "Baton Rouge LA",
+        "description": "Baton Rouge LA",
         "type": "Station",
         "id": "BatonRouge:LA:US",
         "phases": [
@@ -1547,7 +1547,7 @@
         ]
       },
       "properties": {
-        "name": "Madison WI",
+        "description": "Madison WI",
         "type": "Station",
         "id": "Madison:WI:US",
         "phases": [
@@ -1567,7 +1567,7 @@
         ]
       },
       "properties": {
-        "name": "Rochester NY",
+        "description": "Rochester NY",
         "type": "Station",
         "id": "Rochester:NY:US",
         "phases": [
@@ -1587,7 +1587,7 @@
         ]
       },
       "properties": {
-        "name": "Albuquerque NM",
+        "description": "Albuquerque NM",
         "type": "Station",
         "id": "Albuquerque:NM:US",
         "phases": [
@@ -1608,7 +1608,7 @@
         ]
       },
       "properties": {
-        "name": "Bakersfield CA",
+        "description": "Bakersfield CA",
         "type": "Station",
         "id": "Bakersfield:CA:US",
         "phases": [
@@ -1630,7 +1630,7 @@
         ]
       },
       "properties": {
-        "name": "Little Rock AR",
+        "description": "Little Rock AR",
         "type": "Station",
         "id": "LittleRock:AR:US",
         "phases": [
@@ -1651,7 +1651,7 @@
         ]
       },
       "properties": {
-        "name": "Mobile AL",
+        "description": "Mobile AL",
         "type": "Station",
         "id": "Mobile:AL:US",
         "phases": [
@@ -1671,7 +1671,7 @@
         ]
       },
       "properties": {
-        "name": "Gainesville FL",
+        "description": "Gainesville FL",
         "type": "Station",
         "id": "Gainesville:FL:US",
         "phases": [
@@ -1691,7 +1691,7 @@
         ]
       },
       "properties": {
-        "name": "Colorado Springs CO",
+        "description": "Colorado Springs CO",
         "type": "Station",
         "id": "ColoradoSprings:CO:US",
         "phases": [
@@ -1710,7 +1710,7 @@
         ]
       },
       "properties": {
-        "name": "Bloomington IL",
+        "description": "Bloomington IL",
         "type": "Station",
         "id": "Bloomington:IL:US",
         "phases": [
@@ -1731,7 +1731,7 @@
         ]
       },
       "properties": {
-        "name": "Lexington KY",
+        "description": "Lexington KY",
         "type": "Station",
         "id": "Lexington:KY:US",
         "phases": [
@@ -1751,7 +1751,7 @@
         ]
       },
       "properties": {
-        "name": "South Bend IN",
+        "description": "South Bend IN",
         "type": "Station",
         "id": "SouthBend:IN:US",
         "phases": [
@@ -1772,7 +1772,7 @@
         ]
       },
       "properties": {
-        "name": "Green Bay WI",
+        "description": "Green Bay WI",
         "type": "Station",
         "id": "GreenBay:WI:US",
         "phases": [
@@ -1790,7 +1790,7 @@
         ]
       },
       "properties": {
-        "name": "Scranton PA",
+        "description": "Scranton PA",
         "type": "Station",
         "id": "Scranton:PA:US",
         "phases": [
@@ -1809,7 +1809,7 @@
         ]
       },
       "properties": {
-        "name": "Des Moines IA",
+        "description": "Des Moines IA",
         "type": "Station",
         "id": "DesMoines:IA:US",
         "phases": [
@@ -1830,7 +1830,7 @@
         ]
       },
       "properties": {
-        "name": "Roanoke VA",
+        "description": "Roanoke VA",
         "type": "Station",
         "id": "Roanoke:VA:US",
         "phases": [
@@ -1848,7 +1848,7 @@
         ]
       },
       "properties": {
-        "name": "Fort Wayne IN",
+        "description": "Fort Wayne IN",
         "type": "Station",
         "id": "FortWayne:IN:US",
         "phases": [
@@ -1869,7 +1869,7 @@
         ]
       },
       "properties": {
-        "name": "Boise ID",
+        "description": "Boise ID",
         "type": "Station",
         "id": "Boise:ID:US",
         "phases": [
@@ -1889,7 +1889,7 @@
         ]
       },
       "properties": {
-        "name": "Kingsport TN",
+        "description": "Kingsport TN",
         "type": "Station",
         "id": "Kingsport:TN:US",
         "phases": [
@@ -1907,7 +1907,7 @@
         ]
       },
       "properties": {
-        "name": "Savannah GA",
+        "description": "Savannah GA",
         "type": "Station",
         "id": "Savannah:GA:US",
         "phases": [
@@ -1928,7 +1928,7 @@
         ]
       },
       "properties": {
-        "name": "Charleston SC",
+        "description": "Charleston SC",
         "type": "Station",
         "id": "Charleston:SC:US",
         "phases": [
@@ -1946,7 +1946,7 @@
         ]
       },
       "properties": {
-        "name": "Wichita KS",
+        "description": "Wichita KS",
         "type": "Station",
         "id": "Wichita:KS:US",
         "phases": [
@@ -1966,7 +1966,7 @@
         ]
       },
       "properties": {
-        "name": "Reno NV",
+        "description": "Reno NV",
         "type": "Station",
         "id": "Reno:NV:US",
         "phases": [
@@ -1986,7 +1986,7 @@
         ]
       },
       "properties": {
-        "name": "Fort Collins CO",
+        "description": "Fort Collins CO",
         "type": "Station",
         "id": "FortCollins:CO:US",
         "phases": [
@@ -2004,7 +2004,7 @@
         ]
       },
       "properties": {
-        "name": "Spokane WA",
+        "description": "Spokane WA",
         "type": "Station",
         "id": "Spokane:WA:US",
         "phases": [
@@ -2023,7 +2023,7 @@
         ]
       },
       "properties": {
-        "name": "Waco TX",
+        "description": "Waco TX",
         "type": "Station",
         "id": "Waco:TX:US",
         "phases": [
@@ -2045,7 +2045,7 @@
         ]
       },
       "properties": {
-        "name": "Springfield MO",
+        "description": "Springfield MO",
         "type": "Station",
         "id": "Springfield:MO:US",
         "phases": [
@@ -2064,7 +2064,7 @@
         ]
       },
       "properties": {
-        "name": "Macon GA",
+        "description": "Macon GA",
         "type": "Station",
         "id": "Macon:GA:US",
         "phases": [
@@ -2083,7 +2083,7 @@
         ]
       },
       "properties": {
-        "name": "Jackson MS",
+        "description": "Jackson MS",
         "type": "Station",
         "id": "Jackson:MS:US",
         "phases": [
@@ -2103,7 +2103,7 @@
         ]
       },
       "properties": {
-        "name": "Salem OR",
+        "description": "Salem OR",
         "type": "Station",
         "id": "Salem:OR:US",
         "phases": [
@@ -2123,7 +2123,7 @@
         ]
       },
       "properties": {
-        "name": "Kalamazoo MI",
+        "description": "Kalamazoo MI",
         "type": "Station",
         "id": "Kalamazoo:MI:US",
         "phases": [
@@ -2142,7 +2142,7 @@
         ]
       },
       "properties": {
-        "name": "Charleston WV",
+        "description": "Charleston WV",
         "type": "Station",
         "id": "Charleston:WV:US",
         "phases": [
@@ -2162,7 +2162,7 @@
         ]
       },
       "properties": {
-        "name": "Evansville IN",
+        "description": "Evansville IN",
         "type": "Station",
         "id": "Evansville:IN:US",
         "phases": [
@@ -2182,7 +2182,7 @@
         ]
       },
       "properties": {
-        "name": "Davenport IA",
+        "description": "Davenport IA",
         "type": "Station",
         "id": "Davenport:IA:US",
         "phases": [
@@ -2203,7 +2203,7 @@
         ]
       },
       "properties": {
-        "name": "Wilmington NC",
+        "description": "Wilmington NC",
         "type": "Station",
         "id": "Wilmington:NC:US",
         "phases": [
@@ -2221,7 +2221,7 @@
         ]
       },
       "properties": {
-        "name": "Montgomery AL",
+        "description": "Montgomery AL",
         "type": "Station",
         "id": "Montgomery:AL:US",
         "phases": [
@@ -2240,7 +2240,7 @@
         ]
       },
       "properties": {
-        "name": "Shreveport LA",
+        "description": "Shreveport LA",
         "type": "Station",
         "id": "Shreveport:LA:US",
         "phases": [
@@ -2260,7 +2260,7 @@
         ]
       },
       "properties": {
-        "name": "Tallahassee FL",
+        "description": "Tallahassee FL",
         "type": "Station",
         "id": "Tallahassee:FL:US",
         "phases": [
@@ -2280,7 +2280,7 @@
         ]
       },
       "properties": {
-        "name": "Myrtle Beach SC",
+        "description": "Myrtle Beach SC",
         "type": "Station",
         "id": "MyrtleBeach:SC:US",
         "phases": [
@@ -2298,7 +2298,7 @@
         ]
       },
       "properties": {
-        "name": "Kennewick WA",
+        "description": "Kennewick WA",
         "type": "Station",
         "id": "Kennewick:WA:US",
         "phases": [
@@ -2318,7 +2318,7 @@
         ]
       },
       "properties": {
-        "name": "Erie PA",
+        "description": "Erie PA",
         "type": "Station",
         "id": "Erie:PA:US",
         "phases": [
@@ -2338,7 +2338,7 @@
         ]
       },
       "properties": {
-        "name": "Beaumont TX",
+        "description": "Beaumont TX",
         "type": "Station",
         "id": "Beaumont:TX:US",
         "phases": [
@@ -2358,7 +2358,7 @@
         ]
       },
       "properties": {
-        "name": "Waterloo IA",
+        "description": "Waterloo IA",
         "type": "Station",
         "id": "Waterloo:IA:US",
         "phases": [
@@ -2377,7 +2377,7 @@
         ]
       },
       "properties": {
-        "name": "Eugene OR",
+        "description": "Eugene OR",
         "type": "Station",
         "id": "Eugene:OR:US",
         "phases": [
@@ -2397,7 +2397,7 @@
         ]
       },
       "properties": {
-        "name": "Lubbock TX",
+        "description": "Lubbock TX",
         "type": "Station",
         "id": "Lubbock:TX:US",
         "phases": [
@@ -2418,7 +2418,7 @@
         ]
       },
       "properties": {
-        "name": "Sioux Falls SD",
+        "description": "Sioux Falls SD",
         "type": "Station",
         "id": "SiouxFalls:SD:US",
         "phases": [
@@ -2437,7 +2437,7 @@
         ]
       },
       "properties": {
-        "name": "Midland TX",
+        "description": "Midland TX",
         "type": "Station",
         "id": "Midland:TX:US",
         "phases": [
@@ -2456,7 +2456,7 @@
         ]
       },
       "properties": {
-        "name": "Medford OR",
+        "description": "Medford OR",
         "type": "Station",
         "id": "Medford:OR:US",
         "phases": [
@@ -2476,7 +2476,7 @@
         ]
       },
       "properties": {
-        "name": "Fargo ND",
+        "description": "Fargo ND",
         "type": "Station",
         "id": "Fargo:ND:US",
         "phases": [
@@ -2495,7 +2495,7 @@
         ]
       },
       "properties": {
-        "name": "Redding CA",
+        "description": "Redding CA",
         "type": "Station",
         "id": "Redding:CA:US",
         "phases": [
@@ -2515,7 +2515,7 @@
         ]
       },
       "properties": {
-        "name": "Cedar City UT",
+        "description": "Cedar City UT",
         "type": "Station",
         "id": "CedarCity:UT:US",
         "phases": [
@@ -2536,7 +2536,7 @@
         ]
       },
       "properties": {
-        "name": "Grand Junction CO",
+        "description": "Grand Junction CO",
         "type": "Station",
         "id": "GrandJunction:CO:US",
         "phases": [
@@ -2557,7 +2557,7 @@
         ]
       },
       "properties": {
-        "name": "Flagstaff AZ",
+        "description": "Flagstaff AZ",
         "type": "Station",
         "id": "Flagstaff:AZ:US",
         "phases": [
@@ -2575,7 +2575,7 @@
         ]
       },
       "properties": {
-        "name": "Billings MT",
+        "description": "Billings MT",
         "type": "Station",
         "id": "Billings:MT:US",
         "phases": [
@@ -2594,7 +2594,7 @@
         ]
       },
       "properties": {
-        "name": "Rapid City SD",
+        "description": "Rapid City SD",
         "type": "Station",
         "id": "RapidCity:SD:US",
         "phases": [
@@ -2612,7 +2612,7 @@
         ]
       },
       "properties": {
-        "name": "Missoula MT",
+        "description": "Missoula MT",
         "type": "Station",
         "id": "Missoula:MT:US",
         "phases": [
@@ -2631,7 +2631,7 @@
         ]
       },
       "properties": {
-        "name": "Bismarck ND",
+        "description": "Bismarck ND",
         "type": "Station",
         "id": "Bismarck:ND:US",
         "phases": [
@@ -2650,7 +2650,7 @@
         ]
       },
       "properties": {
-        "name": "Casper WY",
+        "description": "Casper WY",
         "type": "Station",
         "id": "Casper:WY:US",
         "phases": [
@@ -2668,7 +2668,7 @@
         ]
       },
       "properties": {
-        "name": "North Platte NE",
+        "description": "North Platte NE",
         "type": "Station",
         "id": "NorthPlatte:NE:US",
         "phases": [
