@@ -2166,7 +2166,6 @@
         "type": "Station",
         "id": "Evansville:IN:US",
         "phases": [
-          2,
           3,
           4,
           5
