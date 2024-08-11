@@ -1,11 +1,366 @@
 {
   "phase1": {
     "minimal": {
-      "speed200": {},
-      "speed240": {},
-      "speed280": {},
-      "speed320": {},
-      "speed360": {}
+      "speed200": {
+        "Boston:MA:US-NewYork:NY:US": {
+          "duration": 132,
+          "startTimes": [
+            408,
+            1008
+          ]
+        },
+        "NewYork:NY:US-Washington:DC:US": {
+          "duration": 134,
+          "startTimes": [
+            550,
+            1150
+          ]
+        },
+        "Washington:DC:US-NewYork:NY:US": {
+          "duration": 134,
+          "startTimes": [
+            426,
+            1026
+          ]
+        },
+        "NewYork:NY:US-Boston:MA:US": {
+          "duration": 132,
+          "startTimes": [
+            570,
+            1170
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(W)": {
+          "duration": 259,
+          "startTimes": [
+            510,
+            1110
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(E)": {
+          "duration": 118,
+          "startTimes": [
+            540,
+            1140
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(W)": {
+          "duration": 259,
+          "startTimes": [
+            510,
+            1110
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(E)": {
+          "duration": 118,
+          "startTimes": [
+            540,
+            1140
+          ]
+        },
+        "LosAngeles:CA:US-SanFrancisco:CA:US": {
+          "duration": 216,
+          "startTimes": [
+            660,
+            1260
+          ]
+        },
+        "SanFrancisco:CA:US-LosAngeles:CA:US": {
+          "duration": 216,
+          "startTimes": [
+            660,
+            1260
+          ]
+        }
+      },
+      "speed240": {
+        "Boston:MA:US-NewYork:NY:US": {
+          "duration": 116,
+          "startTimes": [
+            424,
+            1024
+          ]
+        },
+        "NewYork:NY:US-Washington:DC:US": {
+          "duration": 118,
+          "startTimes": [
+            550,
+            1150
+          ]
+        },
+        "Washington:DC:US-NewYork:NY:US": {
+          "duration": 118,
+          "startTimes": [
+            442,
+            1042
+          ]
+        },
+        "NewYork:NY:US-Boston:MA:US": {
+          "duration": 116,
+          "startTimes": [
+            570,
+            1170
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(W)": {
+          "duration": 221,
+          "startTimes": [
+            510,
+            1110
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(E)": {
+          "duration": 100,
+          "startTimes": [
+            540,
+            1140
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(W)": {
+          "duration": 221,
+          "startTimes": [
+            510,
+            1110
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(E)": {
+          "duration": 100,
+          "startTimes": [
+            540,
+            1140
+          ]
+        },
+        "LosAngeles:CA:US-SanFrancisco:CA:US": {
+          "duration": 186,
+          "startTimes": [
+            660,
+            1260
+          ]
+        },
+        "SanFrancisco:CA:US-LosAngeles:CA:US": {
+          "duration": 186,
+          "startTimes": [
+            660,
+            1260
+          ]
+        }
+      },
+      "speed280": {
+        "Boston:MA:US-NewYork:NY:US": {
+          "duration": 105,
+          "startTimes": [
+            435,
+            1035
+          ]
+        },
+        "NewYork:NY:US-Washington:DC:US": {
+          "duration": 107,
+          "startTimes": [
+            550,
+            1150
+          ]
+        },
+        "Washington:DC:US-NewYork:NY:US": {
+          "duration": 107,
+          "startTimes": [
+            453,
+            1053
+          ]
+        },
+        "NewYork:NY:US-Boston:MA:US": {
+          "duration": 105,
+          "startTimes": [
+            570,
+            1170
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(W)": {
+          "duration": 195,
+          "startTimes": [
+            510,
+            1110
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(E)": {
+          "duration": 86,
+          "startTimes": [
+            540,
+            1140
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(W)": {
+          "duration": 195,
+          "startTimes": [
+            510,
+            1110
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(E)": {
+          "duration": 86,
+          "startTimes": [
+            540,
+            1140
+          ]
+        },
+        "LosAngeles:CA:US-SanFrancisco:CA:US": {
+          "duration": 165,
+          "startTimes": [
+            660,
+            1260
+          ]
+        },
+        "SanFrancisco:CA:US-LosAngeles:CA:US": {
+          "duration": 165,
+          "startTimes": [
+            660,
+            1260
+          ]
+        }
+      },
+      "speed320": {
+        "Boston:MA:US-NewYork:NY:US": {
+          "duration": 97,
+          "startTimes": [
+            443,
+            1043
+          ]
+        },
+        "NewYork:NY:US-Washington:DC:US": {
+          "duration": 99,
+          "startTimes": [
+            550,
+            1150
+          ]
+        },
+        "Washington:DC:US-NewYork:NY:US": {
+          "duration": 99,
+          "startTimes": [
+            461,
+            1061
+          ]
+        },
+        "NewYork:NY:US-Boston:MA:US": {
+          "duration": 97,
+          "startTimes": [
+            570,
+            1170
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(W)": {
+          "duration": 176,
+          "startTimes": [
+            510,
+            1110
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(E)": {
+          "duration": 77,
+          "startTimes": [
+            540,
+            1140
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(W)": {
+          "duration": 176,
+          "startTimes": [
+            510,
+            1110
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(E)": {
+          "duration": 77,
+          "startTimes": [
+            540,
+            1140
+          ]
+        },
+        "LosAngeles:CA:US-SanFrancisco:CA:US": {
+          "duration": 149,
+          "startTimes": [
+            660,
+            1260
+          ]
+        },
+        "SanFrancisco:CA:US-LosAngeles:CA:US": {
+          "duration": 149,
+          "startTimes": [
+            660,
+            1260
+          ]
+        }
+      },
+      "speed360": {
+        "Boston:MA:US-NewYork:NY:US": {
+          "duration": 91,
+          "startTimes": [
+            449,
+            1049
+          ]
+        },
+        "NewYork:NY:US-Washington:DC:US": {
+          "duration": 93,
+          "startTimes": [
+            550,
+            1150
+          ]
+        },
+        "Washington:DC:US-NewYork:NY:US": {
+          "duration": 93,
+          "startTimes": [
+            467,
+            1067
+          ]
+        },
+        "NewYork:NY:US-Boston:MA:US": {
+          "duration": 91,
+          "startTimes": [
+            570,
+            1170
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(W)": {
+          "duration": 161,
+          "startTimes": [
+            510,
+            1110
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(E)": {
+          "duration": 69,
+          "startTimes": [
+            540,
+            1140
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(W)": {
+          "duration": 161,
+          "startTimes": [
+            510,
+            1110
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(E)": {
+          "duration": 69,
+          "startTimes": [
+            540,
+            1140
+          ]
+        },
+        "LosAngeles:CA:US-SanFrancisco:CA:US": {
+          "duration": 138,
+          "startTimes": [
+            660,
+            1260
+          ]
+        },
+        "SanFrancisco:CA:US-LosAngeles:CA:US": {
+          "duration": 138,
+          "startTimes": [
+            660,
+            1260
+          ]
+        }
+      }
     },
     "light": {
       "speed200": {},
@@ -314,10 +669,1110 @@
           ]
         }
       },
-      "speed240": {},
-      "speed280": {},
-      "speed320": {},
-      "speed360": {}
+      "speed240": {
+        "Boston:MA:US-NewYork:NY:US": {
+          "duration": 116,
+          "startTimes": [
+            394,
+            754,
+            1114,
+            34
+          ]
+        },
+        "NewYork:NY:US-Chicago:IL:US(S)": {
+          "duration": 401,
+          "startTimes": [
+            520,
+            1240
+          ]
+        },
+        "Chicago:IL:US-StLouis:MO:US": {
+          "duration": 129,
+          "startTimes": [
+            931,
+            211
+          ]
+        },
+        "StLouis:MO:US-Dallas:TX:US(SE)": {
+          "duration": 310,
+          "startTimes": [
+            1074,
+            354
+          ]
+        },
+        "Dallas:TX:US-LosAngeles:CA:US": {
+          "duration": 601,
+          "startTimes": [
+            1394,
+            674
+          ]
+        },
+        "LosAngeles:CA:US-SanFrancisco:CA:US": {
+          "duration": 186,
+          "startTimes": [
+            565,
+            1285
+          ]
+        },
+        "LosAngeles:CA:US-SanDiego:CA:US(NS)": {
+          "duration": 56,
+          "startTimes": [
+            575,
+            1295
+          ]
+        },
+        "NewYork:NY:US-Washington:DC:US": {
+          "duration": 118,
+          "startTimes": [
+            530,
+            880,
+            1250,
+            160
+          ]
+        },
+        "Washington:DC:US-Atlanta:GA:US(SE)": {
+          "duration": 312,
+          "startTimes": [
+            658,
+            1378
+          ]
+        },
+        "Atlanta:GA:US-Dallas:TX:US(Temp)": {
+          "duration": 397,
+          "startTimes": [
+            980,
+            260
+          ]
+        },
+        "Chicago:IL:US-Denver:CO:US": {
+          "duration": 446,
+          "startTimes": [
+            941,
+            221
+          ]
+        },
+        "Denver:CO:US-LosAngeles:CA:US(NW)": {
+          "duration": 402,
+          "startTimes": [
+            1397,
+            677
+          ]
+        },
+        "Miami:FL:US-Atlanta:GA:US(E)": {
+          "duration": 339,
+          "startTimes": [
+            621,
+            1341
+          ]
+        },
+        "Atlanta:GA:US-Chicago:IL:US(Temp)": {
+          "duration": 389,
+          "startTimes": [
+            522,
+            1242
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(W)": {
+          "duration": 221,
+          "startTimes": [
+            1163,
+            443
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(E)": {
+          "duration": 100,
+          "startTimes": [
+            1274,
+            554
+          ]
+        },
+        "LosAngeles:CA:US-Dallas:TX:US": {
+          "duration": 601,
+          "startTimes": [
+            783,
+            63
+          ]
+        },
+        "SanFrancisco:CA:US-LosAngeles:CA:US": {
+          "duration": 186,
+          "startTimes": [
+            587,
+            1307
+          ]
+        },
+        "SanDiego:CA:US-LosAngeles:CA:US(SN)": {
+          "duration": 56,
+          "startTimes": [
+            707,
+            1427
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(W)": {
+          "duration": 221,
+          "startTimes": [
+            1394,
+            674
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(E)": {
+          "duration": 100,
+          "startTimes": [
+            1404,
+            684
+          ]
+        },
+        "LosAngeles:CA:US-Denver:CO:US(NW)": {
+          "duration": 402,
+          "startTimes": [
+            793,
+            73
+          ]
+        },
+        "Denver:CO:US-Chicago:IL:US": {
+          "duration": 446,
+          "startTimes": [
+            1205,
+            485
+          ]
+        },
+        "Dallas:TX:US-StLouis:MO:US(SE)": {
+          "duration": 310,
+          "startTimes": [
+            1394,
+            674
+          ]
+        },
+        "StLouis:MO:US-Chicago:IL:US": {
+          "duration": 129,
+          "startTimes": [
+            274,
+            994
+          ]
+        },
+        "Chicago:IL:US-NewYork:NY:US(S)": {
+          "duration": 401,
+          "startTimes": [
+            417,
+            1137
+          ]
+        },
+        "Chicago:IL:US-Atlanta:GA:US(Temp)": {
+          "duration": 389,
+          "startTimes": [
+            427,
+            1147
+          ]
+        },
+        "Dallas:TX:US-Atlanta:GA:US(Temp)": {
+          "duration": 397,
+          "startTimes": [
+            1404,
+            684
+          ]
+        },
+        "Atlanta:GA:US-Washington:DC:US(SE)": {
+          "duration": 312,
+          "startTimes": [
+            371,
+            1091
+          ]
+        },
+        "Washington:DC:US-NewYork:NY:US": {
+          "duration": 118,
+          "startTimes": [
+            693,
+            1053,
+            1413,
+            333
+          ]
+        },
+        "NewYork:NY:US-Boston:MA:US": {
+          "duration": 116,
+          "startTimes": [
+            828,
+            1181,
+            108,
+            461
+          ]
+        },
+        "Atlanta:GA:US-Miami:FL:US(E)": {
+          "duration": 339,
+          "startTimes": [
+            381,
+            1101
+          ]
+        },
+        "Washington:DC:US-Miami:FL:US(Temp)": {
+          "duration": 535,
+          "startTimes": [
+            1008,
+            288
+          ]
+        },
+        "Washington:DC:US-Chicago:IL:US": {
+          "duration": 320,
+          "startTimes": [
+            1018,
+            298
+          ]
+        },
+        "NewYork:NY:US-Dallas:TX:US": {
+          "duration": 733,
+          "startTimes": [
+            890,
+            170
+          ]
+        },
+        "Miami:FL:US-Washington:DC:US(Temp)": {
+          "duration": 535,
+          "startTimes": [
+            508,
+            1228
+          ]
+        },
+        "Chicago:IL:US-Washington:DC:US": {
+          "duration": 320,
+          "startTimes": [
+            713,
+            1433
+          ]
+        },
+        "Dallas:TX:US-NewYork:NY:US": {
+          "duration": 733,
+          "startTimes": [
+            428,
+            1148
+          ]
+        }
+      },
+      "speed280": {
+        "Boston:MA:US-NewYork:NY:US": {
+          "duration": 105,
+          "startTimes": [
+            405,
+            765,
+            1125,
+            45
+          ]
+        },
+        "NewYork:NY:US-Chicago:IL:US(S)": {
+          "duration": 356,
+          "startTimes": [
+            520,
+            1240
+          ]
+        },
+        "Chicago:IL:US-StLouis:MO:US": {
+          "duration": 113,
+          "startTimes": [
+            886,
+            166
+          ]
+        },
+        "StLouis:MO:US-Dallas:TX:US(SE)": {
+          "duration": 269,
+          "startTimes": [
+            1013,
+            293
+          ]
+        },
+        "Dallas:TX:US-LosAngeles:CA:US": {
+          "duration": 522,
+          "startTimes": [
+            1292,
+            572
+          ]
+        },
+        "LosAngeles:CA:US-SanFrancisco:CA:US": {
+          "duration": 165,
+          "startTimes": [
+            384,
+            1104
+          ]
+        },
+        "LosAngeles:CA:US-SanDiego:CA:US(NS)": {
+          "duration": 49,
+          "startTimes": [
+            394,
+            1114
+          ]
+        },
+        "NewYork:NY:US-Washington:DC:US": {
+          "duration": 107,
+          "startTimes": [
+            530,
+            880,
+            1250,
+            160
+          ]
+        },
+        "Washington:DC:US-Atlanta:GA:US(SE)": {
+          "duration": 276,
+          "startTimes": [
+            647,
+            1367
+          ]
+        },
+        "Atlanta:GA:US-Dallas:TX:US(Temp)": {
+          "duration": 347,
+          "startTimes": [
+            933,
+            213
+          ]
+        },
+        "Chicago:IL:US-Denver:CO:US": {
+          "duration": 389,
+          "startTimes": [
+            896,
+            176
+          ]
+        },
+        "Denver:CO:US-LosAngeles:CA:US(NW)": {
+          "duration": 351,
+          "startTimes": [
+            1295,
+            575
+          ]
+        },
+        "Miami:FL:US-Atlanta:GA:US(E)": {
+          "duration": 298,
+          "startTimes": [
+            615,
+            1335
+          ]
+        },
+        "Atlanta:GA:US-Chicago:IL:US(Temp)": {
+          "duration": 343,
+          "startTimes": [
+            523,
+            1243
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(W)": {
+          "duration": 195,
+          "startTimes": [
+            1087,
+            367
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(E)": {
+          "duration": 86,
+          "startTimes": [
+            1186,
+            466
+          ]
+        },
+        "LosAngeles:CA:US-Dallas:TX:US": {
+          "duration": 522,
+          "startTimes": [
+            760,
+            40
+          ]
+        },
+        "SanFrancisco:CA:US-LosAngeles:CA:US": {
+          "duration": 165,
+          "startTimes": [
+            585,
+            1305
+          ]
+        },
+        "SanDiego:CA:US-LosAngeles:CA:US(SN)": {
+          "duration": 49,
+          "startTimes": [
+            691,
+            1411
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(W)": {
+          "duration": 195,
+          "startTimes": [
+            1292,
+            572
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(E)": {
+          "duration": 86,
+          "startTimes": [
+            1302,
+            582
+          ]
+        },
+        "LosAngeles:CA:US-Denver:CO:US(NW)": {
+          "duration": 351,
+          "startTimes": [
+            770,
+            50
+          ]
+        },
+        "Denver:CO:US-Chicago:IL:US": {
+          "duration": 389,
+          "startTimes": [
+            1131,
+            411
+          ]
+        },
+        "Dallas:TX:US-StLouis:MO:US(SE)": {
+          "duration": 269,
+          "startTimes": [
+            1292,
+            572
+          ]
+        },
+        "StLouis:MO:US-Chicago:IL:US": {
+          "duration": 113,
+          "startTimes": [
+            131,
+            851
+          ]
+        },
+        "Chicago:IL:US-NewYork:NY:US(S)": {
+          "duration": 356,
+          "startTimes": [
+            258,
+            978
+          ]
+        },
+        "Chicago:IL:US-Atlanta:GA:US(Temp)": {
+          "duration": 343,
+          "startTimes": [
+            268,
+            988
+          ]
+        },
+        "Dallas:TX:US-Atlanta:GA:US(Temp)": {
+          "duration": 347,
+          "startTimes": [
+            1302,
+            582
+          ]
+        },
+        "Atlanta:GA:US-Washington:DC:US(SE)": {
+          "duration": 276,
+          "startTimes": [
+            219,
+            939
+          ]
+        },
+        "Washington:DC:US-NewYork:NY:US": {
+          "duration": 107,
+          "startTimes": [
+            505,
+            865,
+            1225,
+            145
+          ]
+        },
+        "NewYork:NY:US-Boston:MA:US": {
+          "duration": 105,
+          "startTimes": [
+            624,
+            982,
+            1344,
+            262
+          ]
+        },
+        "Atlanta:GA:US-Miami:FL:US(E)": {
+          "duration": 298,
+          "startTimes": [
+            229,
+            949
+          ]
+        },
+        "Washington:DC:US-Miami:FL:US(Temp)": {
+          "duration": 473,
+          "startTimes": [
+            997,
+            277
+          ]
+        },
+        "Washington:DC:US-Chicago:IL:US": {
+          "duration": 283,
+          "startTimes": [
+            1007,
+            287
+          ]
+        },
+        "NewYork:NY:US-Dallas:TX:US": {
+          "duration": 644,
+          "startTimes": [
+            890,
+            170
+          ]
+        },
+        "Miami:FL:US-Washington:DC:US(Temp)": {
+          "duration": 473,
+          "startTimes": [
+            382,
+            1102
+          ]
+        },
+        "Chicago:IL:US-Washington:DC:US": {
+          "duration": 283,
+          "startTimes": [
+            562,
+            1282
+          ]
+        },
+        "Dallas:TX:US-NewYork:NY:US": {
+          "duration": 644,
+          "startTimes": [
+            318,
+            1038
+          ]
+        }
+      },
+      "speed320": {
+        "Boston:MA:US-NewYork:NY:US": {
+          "duration": 97,
+          "startTimes": [
+            413,
+            773,
+            1133,
+            53
+          ]
+        },
+        "NewYork:NY:US-Chicago:IL:US(S)": {
+          "duration": 322,
+          "startTimes": [
+            520,
+            1240
+          ]
+        },
+        "Chicago:IL:US-StLouis:MO:US": {
+          "duration": 102,
+          "startTimes": [
+            852,
+            132
+          ]
+        },
+        "StLouis:MO:US-Dallas:TX:US(SE)": {
+          "duration": 239,
+          "startTimes": [
+            968,
+            248
+          ]
+        },
+        "Dallas:TX:US-LosAngeles:CA:US": {
+          "duration": 464,
+          "startTimes": [
+            1217,
+            497
+          ]
+        },
+        "LosAngeles:CA:US-SanFrancisco:CA:US": {
+          "duration": 149,
+          "startTimes": [
+            251,
+            971
+          ]
+        },
+        "LosAngeles:CA:US-SanDiego:CA:US(NS)": {
+          "duration": 44,
+          "startTimes": [
+            261,
+            981
+          ]
+        },
+        "NewYork:NY:US-Washington:DC:US": {
+          "duration": 99,
+          "startTimes": [
+            530,
+            880,
+            1250,
+            160
+          ]
+        },
+        "Washington:DC:US-Atlanta:GA:US(SE)": {
+          "duration": 250,
+          "startTimes": [
+            639,
+            1359
+          ]
+        },
+        "Atlanta:GA:US-Dallas:TX:US(Temp)": {
+          "duration": 311,
+          "startTimes": [
+            899,
+            179
+          ]
+        },
+        "Chicago:IL:US-Denver:CO:US": {
+          "duration": 346,
+          "startTimes": [
+            862,
+            142
+          ]
+        },
+        "Denver:CO:US-LosAngeles:CA:US(NW)": {
+          "duration": 314,
+          "startTimes": [
+            1218,
+            498
+          ]
+        },
+        "Miami:FL:US-Atlanta:GA:US(E)": {
+          "duration": 268,
+          "startTimes": [
+            611,
+            1331
+          ]
+        },
+        "Atlanta:GA:US-Chicago:IL:US(Temp)": {
+          "duration": 309,
+          "startTimes": [
+            523,
+            1243
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(W)": {
+          "duration": 176,
+          "startTimes": [
+            1031,
+            311
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(E)": {
+          "duration": 77,
+          "startTimes": [
+            1120,
+            400
+          ]
+        },
+        "LosAngeles:CA:US-Dallas:TX:US": {
+          "duration": 464,
+          "startTimes": [
+            743,
+            23
+          ]
+        },
+        "SanFrancisco:CA:US-LosAngeles:CA:US": {
+          "duration": 149,
+          "startTimes": [
+            584,
+            1304
+          ]
+        },
+        "SanDiego:CA:US-LosAngeles:CA:US(SN)": {
+          "duration": 44,
+          "startTimes": [
+            679,
+            1399
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(W)": {
+          "duration": 176,
+          "startTimes": [
+            1217,
+            497
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(E)": {
+          "duration": 77,
+          "startTimes": [
+            1227,
+            507
+          ]
+        },
+        "LosAngeles:CA:US-Denver:CO:US(NW)": {
+          "duration": 314,
+          "startTimes": [
+            753,
+            33
+          ]
+        },
+        "Denver:CO:US-Chicago:IL:US": {
+          "duration": 346,
+          "startTimes": [
+            1077,
+            357
+          ]
+        },
+        "Dallas:TX:US-StLouis:MO:US(SE)": {
+          "duration": 239,
+          "startTimes": [
+            1217,
+            497
+          ]
+        },
+        "StLouis:MO:US-Chicago:IL:US": {
+          "duration": 102,
+          "startTimes": [
+            26,
+            746
+          ]
+        },
+        "Chicago:IL:US-NewYork:NY:US(S)": {
+          "duration": 322,
+          "startTimes": [
+            142,
+            862
+          ]
+        },
+        "Chicago:IL:US-Atlanta:GA:US(Temp)": {
+          "duration": 309,
+          "startTimes": [
+            152,
+            872
+          ]
+        },
+        "Dallas:TX:US-Atlanta:GA:US(Temp)": {
+          "duration": 311,
+          "startTimes": [
+            1227,
+            507
+          ]
+        },
+        "Atlanta:GA:US-Washington:DC:US(SE)": {
+          "duration": 250,
+          "startTimes": [
+            108,
+            828
+          ]
+        },
+        "Washington:DC:US-NewYork:NY:US": {
+          "duration": 99,
+          "startTimes": [
+            368,
+            728,
+            1088,
+            8
+          ]
+        },
+        "NewYork:NY:US-Boston:MA:US": {
+          "duration": 97,
+          "startTimes": [
+            474,
+            837,
+            1194,
+            117
+          ]
+        },
+        "Atlanta:GA:US-Miami:FL:US(E)": {
+          "duration": 268,
+          "startTimes": [
+            118,
+            838
+          ]
+        },
+        "Washington:DC:US-Miami:FL:US(Temp)": {
+          "duration": 428,
+          "startTimes": [
+            989,
+            269
+          ]
+        },
+        "Washington:DC:US-Chicago:IL:US": {
+          "duration": 255,
+          "startTimes": [
+            999,
+            279
+          ]
+        },
+        "NewYork:NY:US-Dallas:TX:US": {
+          "duration": 579,
+          "startTimes": [
+            890,
+            170
+          ]
+        },
+        "Miami:FL:US-Washington:DC:US(Temp)": {
+          "duration": 428,
+          "startTimes": [
+            290,
+            1010
+          ]
+        },
+        "Chicago:IL:US-Washington:DC:US": {
+          "duration": 255,
+          "startTimes": [
+            453,
+            1173
+          ]
+        },
+        "Dallas:TX:US-NewYork:NY:US": {
+          "duration": 579,
+          "startTimes": [
+            238,
+            958
+          ]
+        }
+      },
+      "speed360": {
+        "Boston:MA:US-NewYork:NY:US": {
+          "duration": 91,
+          "startTimes": [
+            419,
+            779,
+            1139,
+            59
+          ]
+        },
+        "NewYork:NY:US-Chicago:IL:US(S)": {
+          "duration": 297,
+          "startTimes": [
+            520,
+            1240
+          ]
+        },
+        "Chicago:IL:US-StLouis:MO:US": {
+          "duration": 93,
+          "startTimes": [
+            827,
+            107
+          ]
+        },
+        "StLouis:MO:US-Dallas:TX:US(SE)": {
+          "duration": 217,
+          "startTimes": [
+            934,
+            214
+          ]
+        },
+        "Dallas:TX:US-LosAngeles:CA:US": {
+          "duration": 419,
+          "startTimes": [
+            1161,
+            441
+          ]
+        },
+        "LosAngeles:CA:US-SanFrancisco:CA:US": {
+          "duration": 138,
+          "startTimes": [
+            150,
+            870
+          ]
+        },
+        "LosAngeles:CA:US-SanDiego:CA:US(NS)": {
+          "duration": 40,
+          "startTimes": [
+            160,
+            880
+          ]
+        },
+        "NewYork:NY:US-Washington:DC:US": {
+          "duration": 93,
+          "startTimes": [
+            530,
+            880,
+            1250,
+            160
+          ]
+        },
+        "Washington:DC:US-Atlanta:GA:US(SE)": {
+          "duration": 230,
+          "startTimes": [
+            633,
+            1353
+          ]
+        },
+        "Atlanta:GA:US-Dallas:TX:US(Temp)": {
+          "duration": 283,
+          "startTimes": [
+            873,
+            153
+          ]
+        },
+        "Chicago:IL:US-Denver:CO:US": {
+          "duration": 314,
+          "startTimes": [
+            837,
+            117
+          ]
+        },
+        "Denver:CO:US-LosAngeles:CA:US(NW)": {
+          "duration": 285,
+          "startTimes": [
+            1161,
+            441
+          ]
+        },
+        "Miami:FL:US-Atlanta:GA:US(E)": {
+          "duration": 244,
+          "startTimes": [
+            609,
+            1329
+          ]
+        },
+        "Atlanta:GA:US-Chicago:IL:US(Temp)": {
+          "duration": 284,
+          "startTimes": [
+            523,
+            1243
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(W)": {
+          "duration": 161,
+          "startTimes": [
+            990,
+            270
+          ]
+        },
+        "Houston:TX:US-Dallas:TX:US(E)": {
+          "duration": 69,
+          "startTimes": [
+            1072,
+            352
+          ]
+        },
+        "LosAngeles:CA:US-Dallas:TX:US": {
+          "duration": 419,
+          "startTimes": [
+            732,
+            12
+          ]
+        },
+        "SanFrancisco:CA:US-LosAngeles:CA:US": {
+          "duration": 138,
+          "startTimes": [
+            584,
+            1304
+          ]
+        },
+        "SanDiego:CA:US-LosAngeles:CA:US(SN)": {
+          "duration": 40,
+          "startTimes": [
+            672,
+            1392
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(W)": {
+          "duration": 161,
+          "startTimes": [
+            1161,
+            441
+          ]
+        },
+        "Dallas:TX:US-Houston:TX:US(E)": {
+          "duration": 69,
+          "startTimes": [
+            1171,
+            451
+          ]
+        },
+        "LosAngeles:CA:US-Denver:CO:US(NW)": {
+          "duration": 285,
+          "startTimes": [
+            742,
+            22
+          ]
+        },
+        "Denver:CO:US-Chicago:IL:US": {
+          "duration": 314,
+          "startTimes": [
+            1037,
+            317
+          ]
+        },
+        "Dallas:TX:US-StLouis:MO:US(SE)": {
+          "duration": 217,
+          "startTimes": [
+            1161,
+            441
+          ]
+        },
+        "StLouis:MO:US-Chicago:IL:US": {
+          "duration": 93,
+          "startTimes": [
+            1388,
+            668
+          ]
+        },
+        "Chicago:IL:US-NewYork:NY:US(S)": {
+          "duration": 297,
+          "startTimes": [
+            55,
+            775
+          ]
+        },
+        "Chicago:IL:US-Atlanta:GA:US(Temp)": {
+          "duration": 284,
+          "startTimes": [
+            65,
+            785
+          ]
+        },
+        "Dallas:TX:US-Atlanta:GA:US(Temp)": {
+          "duration": 283,
+          "startTimes": [
+            1171,
+            451
+          ]
+        },
+        "Atlanta:GA:US-Washington:DC:US(SE)": {
+          "duration": 230,
+          "startTimes": [
+            24,
+            744
+          ]
+        },
+        "Washington:DC:US-NewYork:NY:US": {
+          "duration": 93,
+          "startTimes": [
+            264,
+            624,
+            984,
+            1344
+          ]
+        },
+        "NewYork:NY:US-Boston:MA:US": {
+          "duration": 91,
+          "startTimes": [
+            362,
+            727,
+            1082,
+            7
+          ]
+        },
+        "Atlanta:GA:US-Miami:FL:US(E)": {
+          "duration": 244,
+          "startTimes": [
+            34,
+            754
+          ]
+        },
+        "Washington:DC:US-Miami:FL:US(Temp)": {
+          "duration": 394,
+          "startTimes": [
+            983,
+            263
+          ]
+        },
+        "Washington:DC:US-Chicago:IL:US": {
+          "duration": 234,
+          "startTimes": [
+            993,
+            273
+          ]
+        },
+        "NewYork:NY:US-Dallas:TX:US": {
+          "duration": 530,
+          "startTimes": [
+            890,
+            170
+          ]
+        },
+        "Miami:FL:US-Washington:DC:US(Temp)": {
+          "duration": 394,
+          "startTimes": [
+            220,
+            940
+          ]
+        },
+        "Chicago:IL:US-Washington:DC:US": {
+          "duration": 234,
+          "startTimes": [
+            370,
+            1090
+          ]
+        },
+        "Dallas:TX:US-NewYork:NY:US": {
+          "duration": 530,
+          "startTimes": [
+            177,
+            897
+          ]
+        }
+      }
     },
     "light": {
       "speed200": {},
